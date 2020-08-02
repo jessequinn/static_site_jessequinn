@@ -47,13 +47,13 @@
                   <script
                     type="application/javascript"
                     src="https://utteranc.es/client.js"
-                    repo="jessequinn/comments"
-                    issue-term="url"
-                    label="comment"
+                    repo="jessequinn/static_site_jessequinn"
+                    issue-term="pathname"
+                    label="Comment"
                     theme="github-light"
                     crossorigin="anonymous"
                     async
-                  />
+                  ></script>
                 </div>
 
                 <PrevNext :prev="prev" :next="next" />
