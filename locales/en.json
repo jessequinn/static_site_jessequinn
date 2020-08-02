@@ -1,0 +1,35 @@
+{
+  "links": {
+    "home": "Home",
+    "resume": "Resume",
+    "publications": "Publications",
+    "blog": "Blog",
+    "english": "En",
+    "portuguese": "Pt"
+  },
+  "home": {
+    "title": "Welcome",
+    "subtitle": "personal website of jesse quinn.",
+    "introduction": "I am currently making some big changes to my site. I have moved away from PHP and Symfony and forward with NestJS and NuxtJS. If you would like to support my effort you may use my Digital Ocean ",
+    "referral": "referral code",
+    "subintroduction": "On another note, I have started an IT company, and we offer full stack development. If you would like to speak to me about how we can help your online business then please head over to my ",
+    "company": "company site!"
+  },
+  "resume": {
+    "work": {
+      "experience": "Work Experience"
+    },
+    "education": "Education",
+    "studyType": {
+      "doctorate": "doctorate",
+      "masters": "master's",
+      "undergraduate": "undergraduate",
+      "technical": "technical"
+    },
+    "certification": "Certification"
+  },
+  "publications": {
+    "publications": "Publications",
+    "subline": "A simple list of my current Publications."
+  }
+}

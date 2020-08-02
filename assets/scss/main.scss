@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+//@import "node_modules/bulma/bulma";
+@import "node_modules/bulma/sass/utilities/_all";
+@import "node_modules/bulma/sass/base/_all";
+@import "node_modules/bulma/sass/helpers/_all.sass";
+//@import "node_modules/bulma/sass/elements/_all";
+@import "node_modules/bulma/sass/elements/box.sass";
+@import "node_modules/bulma/sass/elements/button.sass";
+@import "node_modules/bulma/sass/elements/container.sass";
+@import "node_modules/bulma/sass/elements/content.sass";
+@import "node_modules/bulma/sass/elements/icon.sass";
+@import "node_modules/bulma/sass/elements/image.sass";
+@import "node_modules/bulma/sass/elements/notification.sass";
+@import "node_modules/bulma/sass/elements/progress.sass";
+@import "node_modules/bulma/sass/elements/table.sass";
+@import "node_modules/bulma/sass/elements/tag.sass";
+@import "node_modules/bulma/sass/elements/title.sass";
+//@import "node_modules/bulma/sass/elements/other.sass";
+@import "node_modules/bulma/sass/form/_all";
+@import "node_modules/bulma/sass/components/_all";
+@import "node_modules/bulma/sass/grid/_all";
+@import "node_modules/bulma/sass/layout/_all";
+@import "node_modules/academicons/css/academicons.css";
+@import 'node_modules/bulma-extensions/bulma-divider/src/sass/index.sass';
+
+.navbar-item.is-mega {
+    position: static;
+
+    .is-mega-menu-title {
+        margin-bottom: 0;
+        padding: .375rem 1rem;
+    }
+}
+
+.is-text-decoration-less {
+    text-decoration: none!important;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-footer {
+  margin-top: auto;
+}
+
+// prismjs filename - will use tag class
+.nuxt-content-highlight .filename {
+  @extend .tag
+}
