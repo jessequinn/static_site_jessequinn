@@ -85,8 +85,7 @@ steps:
       port: 22
       target: /wwwroot/jessequinn
       source:
-        - /dist
-      strip_components: 1
+        - /dist/*
       rm: true
     when:
       branch:
