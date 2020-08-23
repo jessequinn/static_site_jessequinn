@@ -1,43 +1,43 @@
----
-kind: pipeline
-type: docker
-name: test
-
-steps:
-  - name: install prerequisites
-    image: node:14.8.0-alpine
-    volumes:
-      - name: deps
-        path: /node_modules
-    commands:
-      - yarn install
-    when:
-      branch:
-        - develop
-
-  - name: test build
-    image: node:14.8.0-alpine
-    volumes:
-      - name: deps
-        path: /node_modules
-    commands:
-      - yarn build
-      - yarn generate
-    when:
-      branch:
-        - develop
-
-volumes:
-  - name: deps
-    temp: {}
-
-trigger:
-  branch:
-    - master
-    - develop
-  event:
-    - push
-    - pull_request
+#---
+#kind: pipeline
+#type: docker
+#name: test
+#
+#steps:
+#  - name: install prerequisites
+#    image: node:14.8.0-alpine
+#    volumes:
+#      - name: deps
+#        path: /node_modules
+#    commands:
+#      - yarn install
+#    when:
+#      branch:
+#        - develop
+#
+#  - name: test build
+#    image: node:14.8.0-alpine
+#    volumes:
+#      - name: deps
+#        path: /node_modules
+#    commands:
+#      - yarn build
+#      - yarn generate
+#    when:
+#      branch:
+#        - develop
+#
+#volumes:
+#  - name: deps
+#    temp: {}
+#
+#trigger:
+#  branch:
+#    - master
+#    - develop
+#  event:
+#    - push
+#    - pull_request
 
 ---
 kind: pipeline
@@ -45,27 +45,14 @@ type: docker
 name: deployment
 
 steps:
-  - name: install prerequisites
-    image: node:14.8.0-alpine
-    volumes:
-      - name: deps
-        path: /node_modules
-    commands:
-      - yarn install
-    when:
-      branch:
-        - develop
-
   - name: build
     image: node:14.8.0-alpine
     volumes:
-      - name: deps
-        path: /node_modules
-      - name: dist
+      - name: cache
         path: /dist
     commands:
-      - yarn build
-      - yarn generate
+      - yarn install
+      - yarn generate /dist
     when:
       branch:
         - develop
@@ -73,7 +60,7 @@ steps:
   - name: copy dist
     image: appleboy/drone-scp
     volumes:
-      - name: dist
+      - name: cache
         path: /dist
     settings:
       host:
@@ -86,20 +73,18 @@ steps:
       target: /wwwroot/jessequinn
       source:
         - /dist/*
-      strip_components: 1
+#      strip_components: 1
       rm: true
     when:
       branch:
         - develop
 
 volumes:
-  - name: deps
-    temp: {}
-  - name: dist
+  - name: cache
     temp: {}
 
-depends_on:
-  - test
+#depends_on:
+#  - test
 
 trigger:
   branch:
