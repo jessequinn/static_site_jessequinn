@@ -72,6 +72,9 @@ steps:
 
   - name: copy dist
     image: appleboy/drone-scp
+    volumes:
+      - name: dist
+        path: /dist
     settings:
       host:
         from_secret: host
@@ -80,9 +83,6 @@ steps:
       key:
         from_secret: ssh_key
       port: 22
-      volumes:
-        - name: dist
-          path: /dist
       target: /wwwroot/jessequinn
       source:
         - dist/*
