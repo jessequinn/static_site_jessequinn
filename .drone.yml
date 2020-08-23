@@ -39,7 +39,7 @@
 #    - push
 #    - pull_request
 
----
+#---
 kind: pipeline
 type: docker
 name: deployment
@@ -93,5 +93,3 @@ trigger:
   event:
     - push
     - pull_request
-
-
