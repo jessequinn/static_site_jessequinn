@@ -52,7 +52,8 @@ steps:
         path: /dist
     commands:
       - yarn install
-      - yarn generate /dist
+      - yarn generate
+      - mv dist/* /dist
     when:
       branch:
         - develop
