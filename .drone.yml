@@ -45,7 +45,32 @@ type: docker
 name: deployment
 
 steps:
-  - name: copy important files to host
+  - name: install prerequisites
+    image: node:14.8.0-alpine
+    volumes:
+      - name: deps
+        path: /node_modules
+    commands:
+      - yarn install
+    when:
+      branch:
+        - develop
+
+  - name: build
+    image: node:14.8.0-alpine
+    volumes:
+      - name: deps
+        path: /node_modules
+      - name: dist
+        path: /dist
+    commands:
+      - yarn build
+      - yarn generate
+    when:
+      branch:
+        - develop
+
+  - name: copy dist
     image: appleboy/drone-scp
     settings:
       host:
@@ -55,44 +80,23 @@ steps:
       key:
         from_secret: ssh_key
       port: 22
+      volumes:
+        - name: dist
+          path: /dist
       target: /wwwroot/jessequinn
       source:
-        - docker-compose.yaml
-        - api/Dockerfile
-        - api/.dockerignore
-        - api/.env.prod
-        - api/go.mod
-        - api/go.sum
-        - api/configs/*
-        - api/internal/*
-        - api/pkg/*
-        - api/cmd/
-        - frontend/*
+        - dist/*
 #      strip_components: 1 # remove api/
       rm: true
     when:
       branch:
-        - master
+        - develop
 
-  - name: build and start docker on host
-    image: appleboy/drone-ssh
-    settings:
-      host:
-        from_secret: host
-      username:
-        from_secret: user
-      key:
-        from_secret: ssh_key
-      port: 22
-      script:
-        - (cd /wwwroot/golang-ldap-interface && cp api/.env.prod .env)
-        - (cd /wwwroot/golang-ldap-interface && cat frontend/.env.prod >> .env)
-        - (cd /wwwroot/golang-ldap-interface && docker-compose build)
-        - (cd /wwwroot/golang-ldap-interface && docker-compose stop)
-        - (cd /wwwroot/golang-ldap-interface && docker-compose up -d)
-    when:
-      branch:
-        - master
+volumes:
+  - name: deps
+    temp: {}
+  - name: dist
+    temp: {}
 
 depends_on:
   - test
