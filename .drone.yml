@@ -86,7 +86,7 @@ steps:
       target: /wwwroot/jessequinn
       source:
         - /dist
-#      strip_components: 1
+      strip_components: 1
       rm: true
     when:
       branch:
