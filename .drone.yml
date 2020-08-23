@@ -79,7 +79,7 @@ steps:
       host:
         from_secret: host
       username:
-        from_secret: user
+        from_secret: username
       password:
         from_secret: password
       port: 22

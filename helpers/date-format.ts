@@ -9,14 +9,14 @@ Vue.filter('formatDate', (date: string, format: string) => {
   }
 })
 
-Vue.filter('compareDates', (date: string, date2: string) => {
-  if (date) {
-    return moment(date2).diff(moment(date), 'months', false)
+Vue.filter('compareDates', (startDate: string, endDate: string) => {
+  if (startDate) {
+    return moment(new Date(endDate)).diff(moment(startDate), 'months', false)
   }
 })
 
-Vue.filter('compareDateNow', (date: string) => {
-  if (date) {
-    return moment(new Date()).diff(moment(date), 'months', false)
+Vue.filter('compareDateNow', (startDate: string) => {
+  if (startDate) {
+    return moment(new Date()).diff(moment(startDate), 'months', false)
   }
 })
