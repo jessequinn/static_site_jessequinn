@@ -1,3 +1,5 @@
+[![Build Status](https://cloud.drone.io/api/badges/jessequinn/static_site_jessequinn/status.svg?ref=refs/heads/develop)](https://cloud.drone.io/jessequinn/static_site_jessequinn)
+
 # static site
 
 ## Build Setup
