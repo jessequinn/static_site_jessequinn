@@ -17,7 +17,7 @@ work:
         - Python
         - Ansile
     scicoc-connect:
-      company: SCIDOC - ConnecTV
+      company: ConnecTV
       position: Owner / Developer
       website: https://scidoc.dev/
       startedAt: 2020-03-25 21:19:34.000000
@@ -34,59 +34,28 @@ work:
         - Microservices
         - Drone
         - Testing
-    scidoc-vivipay:
-      company: SCIDOC - ViViPay
-      position: Owner / Developer
-      website: https://scidoc.dev/
-      startedAt: 2020-02-01 21:19:34.000000
+    vivtech:
+      company: Viviholdings
+      position: Senior Developer
+      website: https://vivitech.com.br/
+      startedAt: 2019-06-01 21:12:20.000000
       endedAt: 2020-05-15 09:13:19.000000
-      summary: "Managed a single project for IPTV services. Within this project, I designed, created, implemented and tested various components of the service. NodeJS, ExpressJS, AngularJS and PHP were commonly employed. I also managed a Elastic stack and Drone related systems implementing various beats and logstash filters to monitor development and production sites and applications."
+      summary: "Day to day tasks involved modifying legacy Symfony PHP code, javascript, html and css. Created and maintained several plugins and themes for Wordpress and Woocommerce. Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD. Created and maintained several APIs based on API-Platform and Golang (micro.mu)"
       highlights:
         - PHP
         - Symfony
+        - Javascript
+        - Worpdress
+        - Woocommerce
+        - Microservices
+        - Drone
         - Elastic Stack
         - NodeJS
         - ExpressJS
         - AngularJS
-        - Wordpress
-        - Woocommerce
-        - Microservices
-        - Drone
         - Testing
-    vivitech2:
-      company: Vivitech
-      position: Senior Developer
-      website: https://vivitech.com.br/
-      startedAt: 2019-09-01 21:15:04.000000
-      endedAt: 2020-02-01 21:15:04.000000
-      summary: "Managed several projects based on Wordpress and Symfony. Created and maintained several APIs based on API-Platform and Golang (micro.mu). Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD."
-      highlights:
-        - PHP
-        - Symfony
         - API-Platform
         - Golang
-        - Javascript
-        - Worpdress
-        - Woocommerce
-        - Microservices
-        - Drone
-        - Testing
-    vivtech2:
-      company: Vivitech
-      position: Developer
-      website: https://vivitech.com.br/
-      startedAt: 2019-06-01 21:12:20.000000
-      endedAt: 2019-09-01 21:12:20.000000
-      summary: "Day to day tasks involved modifying legacy Symfony PHP code, javascript, html and css. Created and maintained several plugins and themes for Wordpress and Woocommerce. Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD."
-      highlights:
-        - PHP
-        - Symfony
-        - Javascript
-        - Worpdress
-        - Woocommerce
-        - Microservices
-        - Drone
-        - Testing
 education:
   schools:
     uwaterloophd:
