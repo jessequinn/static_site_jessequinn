@@ -80,8 +80,8 @@ steps:
         from_secret: host
       username:
         from_secret: user
-      key:
-        from_secret: ssh_key
+      password:
+        from_secret: password
       port: 22
       target: /wwwroot/jessequinn
       source:
