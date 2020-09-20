@@ -5,9 +5,7 @@
         <AppSearchInput />
       </div>
       <div class="container">
-        <h2 class="title has-text-centered mb-6">
-          Featured Articles
-        </h2>
+        <h2 class="title has-text-centered mb-6">Featured Articles</h2>
         <template v-for="i in Math.ceil(articlesFeatured.length / 3)">
           <div :key="`${i}-${rndStr(5)}`" class="columns is-multiline">
             <template
@@ -20,7 +18,7 @@
                 :key="`${item_index}-${rndStr(5)}`"
                 class="column is-12 is-4-desktop"
               >
-                <div class="card equal-height" style="height: 100%;">
+                <div class="card equal-height" style="height: 100%">
                   <div class="card-image">
                     <nuxt-link :to="'/blog/articles/' + item.slug">
                       <figure class="image is-4by3">
@@ -62,9 +60,7 @@
     </section>
     <section class="section">
       <div class="container py-4">
-        <h2 class="title has-text-centered mb-6">
-          Past Articles
-        </h2>
+        <h2 class="title has-text-centered mb-6">Past Articles</h2>
         <div class="panel">
           <div
             v-for="item in articlesGeneral"

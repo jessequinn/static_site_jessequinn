@@ -64,9 +64,7 @@
     </div>
     <div class="column">
       <aside class="menu is-hidden-touch">
-        <p class="menu-label">
-          Tags
-        </p>
+        <p class="menu-label">Tags</p>
         <ul class="menu-list">
           <li v-for="(val, key) in tags" :key="`${key}-${rndStr(5)}`">
             <a href="#">{{ val }}</a>

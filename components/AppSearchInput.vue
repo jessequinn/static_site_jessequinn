@@ -21,10 +21,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script lang="js">
 
-export default Vue.extend({
+export default {
   data() {
     return {
       searchQuery: '',
@@ -42,5 +41,5 @@ export default Vue.extend({
         .fetch()
     },
   },
-})
+}
 </script>

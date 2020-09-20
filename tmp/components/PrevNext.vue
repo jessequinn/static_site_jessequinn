@@ -1,8 +1,6 @@
 <template>
   <div class="has-padding-top-4">
-    <NuxtLink :to="'/blog'">
-      Back
-    </NuxtLink>
+    <NuxtLink :to="'/blog'"> Back </NuxtLink>
     |
     <NuxtLink
       v-if="prev"

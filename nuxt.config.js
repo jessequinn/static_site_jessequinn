@@ -1,7 +1,7 @@
 import webpack from 'webpack'
 
 export default {
-  mode: 'universal',
+  // mode: 'universal',
   // target: 'static',
   server: {
     port: process.env.PORT || 3000,
@@ -103,7 +103,6 @@ export default {
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
-    '@nuxtjs/style-resources',
     'nuxt-fontawesome',
     [
       '@nuxtjs/google-analytics',
@@ -213,9 +212,6 @@ export default {
         theme: 'prism-themes/themes/prism-vs.css',
       },
     },
-  },
-  styleResources: {
-    scss: ['assets/scss/main.scss'],
   },
   sitemap: {
     path: '/sitemap.xml',

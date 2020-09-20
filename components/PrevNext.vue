@@ -1,8 +1,6 @@
 <template>
   <div class="py-4">
-    <NuxtLink :to="'/blog'">
-      Back
-    </NuxtLink>
+    <NuxtLink :to="'/blog'"> Back </NuxtLink>
     |
     <NuxtLink
       v-if="prev"
