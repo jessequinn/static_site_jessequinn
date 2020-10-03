@@ -42,15 +42,10 @@ steps:
     when:
       branch:
         - master
-        - develop
-
-depends_on:
-  - test
 
 trigger:
   branch:
     - master
-    - develop
   event:
     - push
     - pull_request
