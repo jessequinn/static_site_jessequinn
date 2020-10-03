@@ -1,4 +1,4 @@
-.PHONY: build_all build_app push_all push_app login
+.PHONY: build_all push_all
 
 TAG    							:= $$(git rev-parse --short HEAD)
 
@@ -9,18 +9,21 @@ LATEST_APP					:= ${APP_NAME}:latest
 NODE_VERSION				:= 14
 APP_PORT						:= 3000
 
-build_all: build_app
-push_all: push_app
+build_all: build-app
+push_all: push-app
 
-build_app:
+.PHONY: build-app
+build-app:
 	@docker build --target prod --build-arg VERSION=${NODE_VERSION} --build-arg PORT=${APP_PORT} -f Dockerfile -t ${APP_IMG} .
 	@docker tag ${APP_IMG} ${LATEST_APP}
 	@docker tag ${LATEST_APP} damasu/${LATEST_APP}
 	@docker tag ${APP_IMG} damasu/${APP_IMG}
 
-push_app:
+.PHONY: push-app
+push-app:
 	@docker push damasu/${LATEST_APP}
 	@docker push damasu/${APP_IMG}
 
+.PHONY: login
 login:
 	@docker login -u damasu

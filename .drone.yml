@@ -52,34 +52,33 @@ steps:
         path: /dist
     commands:
       - yarn install
-      - yarn generate
+      - yarn build
       - cp -r dist/* /dist
     when:
       branch:
         - develop
 
-  - name: copy dist
-    image: appleboy/drone-scp
-    volumes:
-      - name: cache
-        path: /dist
+  - name: build and publish app
+    image: plugins/docker
     settings:
-      host:
-        from_secret: host
       username:
-        from_secret: username
+        from_secret: repository_username
       password:
-        from_secret: password
-      port: 22
-      target: /wwwroot/jessequinn
-      source:
-        - /dist/*
-      strip_components: 1
-      rm: true
+        from_secret: repository_password
+      repo: damasu/jessequinn
+      dockerfile: Dockerfile
+      context: .
+      target: prod
+      build_args:
+        VERSION: 14
+        PORT: 3000
+      tags:
+        - latest
+        - ${DRONE_COMMIT_SHA:0:7}
     when:
       branch:
+        - master
         - develop
-
 volumes:
   - name: cache
     temp: {}
