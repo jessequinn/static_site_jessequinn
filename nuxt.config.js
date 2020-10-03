@@ -252,6 +252,7 @@ export default {
       '/blog/articles/tensorflow',
       '/blog/articles/webpack-highlight',
       '/blog/articles/k8s-bare-metal',
+      '/blog/articles/hashicorp-packer',
     ].map((route) => ({
       url: route,
       changefreq: 'monthly',

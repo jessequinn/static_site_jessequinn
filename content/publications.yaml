@@ -22,7 +22,7 @@ publications:
     identifier:
       type: doi
       id: 10.1021/acsaelm.9b00594
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/c6ef69be8978404a951c7726d32573dd.pdf
+    pdf: https://jessequinn.info/static/pdfs/2938afc28bac49fc81e137f1edf2b640.pdf
     summary: "Air-stable solution-processable unipolar n-type organic semiconductors are highly desired in the field of organic thin film transistors as n-type transistors are indispensable components in low-power-consumption complementary integrated circuits. The present work seeks to address this issue and describes the synthesis of two dicyano-substituted bis(2-oxoindolin-3-ylidene)benzodifurandione (BOIBDD) derivatives with engineered alkyl side chains for n-type transistors. Two kinds of side chains are used in this study: 2-hexyldecyl (C16H33) and 3-hexylundecyl (C17H35). Surprisingly, the small structural difference between side chains induced remarkable differences in the physical properties and electronic performance of the BOIBDD derivatives. In addition, cyano substitution into the backbone of BOIBDD derivatives was shown to be effective at lowering the HOMO and LUMO energy levels of BOIBDD derivatives to obtain unipolar n-type materials. Compared with fluorine substitution, cyano substitution was readily realized by a simple and straightforward reaction using cheap CuCN as a cyanation reagent. Both atomic force microscopy (AFM) and X-ray diffraction (XRD) studies have confirmed that the BOIBDD derivative with 3-hexylundecyl side chains tended to form highly crystalline structures in the solid state. More interestingly, thermal annealing of this compound at a temperature as low as 75 °C, well below its melting point of 305 °C, can still further improve its crystallinity and thus significantly increase its electron mobility by 43 times to 0.1 cm2 V–1 s–1 in air. The insight gained from this study will shed some light on the design of new air-stable high-performance n-type organic semiconductors."
     releasedAt: 2019-12-04 17:55:26.000000
   article30:
@@ -44,8 +44,8 @@ publications:
     website: http://pubs.rsc.org/en/content/articlehtml/2018/ta/c8ta04450c
     identifier:
       type: doi
-      id: 10.1039/c7tc03584e
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/8b66988e88d06b64b61036694a4724e29529153e.pdf
+      id: 10.1039/C8TA04450C
+    pdf: https://jessequinn.info/static/pdfs/4c71d6fbdf4a49d386716a85919483e0.pdf
     summary: "An epoxy resin PEI–ER formed by in situ cross-linking between an epoxide compound (ER) and polyethylenimine (PEI) is developed as a new cathode binder for lithium–sulfur (Li–S) batteries. Li–S batteries using this new binder showed high initial specific capacity along with remarkable cycling stability. A composite interlayer of PEI–ER and carbon black is also developed to further enhance the cycling stability. A Li–S battery using a combination of the new binder and interlayer achieved a high initial specific capacity of 1174 mA h g−1 and an excellent capacity retention of 80% after 1000 cycles at a cycling rate of 0.5C with 70 wt% sulfur content in the cathode and an areal sulfur loading of 1.9 mg cm−2, which is among the best cycling stabilities reported for Li–S batteries to date. A Li–S battery with a high areal sulfur loading of 5.4 mg cm−2 demonstrated an initial capacity of 780 mA h g−1, which corresponds to a high areal capacity of 4.2 mA h cm−2, and an excellent capacity retention of 72% after 500 cycles."
     releasedAt: 2018-06-28 17:46:24.000000
   article29:
@@ -68,8 +68,8 @@ publications:
     website: https://pubs.acs.org/doi/10.1021/acs.chemmater.8b02535
     identifier:
       type: doi
-      id: 10.1039/c7tc03584e
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/b6361406c68f2a62778ae35ab51da4aea40206d5.pdf
+      id: 10.1021/acs.chemmater.8b02535
+    pdf: https://jessequinn.info/static/pdfs/d3889955907c45c0a43325448f48953c.pdf
     summary: "Conjugated polymers with a donor–acceptor (DA) structural motif have found extensive use in a wide variety of optoelectronic devices; however, despite their ubiquity in the literature, the vast majority of these materials are simple alternating copolymers—one electron donor alternates with one electron acceptor in the polymer backbone. As a result, the impact of composition (e.g., donor/acceptor ratio) and structure (e.g., alternating, block, or random) on the optoelectronic properties of these copolymers remains poorly understood. In this work, the number of acceptor units in alternating DA copolymers is systematically increased. Two dimers of the common electron acceptor isoindigo are synthesized, one with free rotation between the subunits and one with enforced coplanarity. The two dimers are then used to synthesize donor–acceptor–acceptor (DAA) copolymers with either thiophene or terthiophene comonomers. These DAA polymers feature two electron acceptors in their repeat unit, and their optoelectronic properties are compared to those of the analogous DA polymers. It is shown that increasing the number of acceptor units causes a decrease in the LUMO energy of the resulting polymer; this effect is enhanced by enforcing coplanarity between acceptor units via ring fusion. All six polymers were tested in both organic photovoltaics (OPVs) and organic thin film transistors (OTFTs). While the DA polymers performed better in OPVs, the DAA polymers displayed more balanced charge carrier mobilities in OTFTs."
     releasedAt: 2018-06-20 17:46:14.000000
   article28:
@@ -91,7 +91,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c7tc03584e
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/53324c25984a370cad5c4dcd1a108c7136f14743.pdf
+    pdf: https://jessequinn.info/static/pdfs/9b8d44d7763a4cd39af704ed2119bd60.pdf
     summary: "A (3E,7E)-3,7-bis(2-oxoindolin-3-ylidene)benzo[1,2-b:4,5-b′]difuran-2,6(3H,7H)-dione (IBDF)-based small bandgap donor–acceptor (D–A) polymer (PIBDFBTO-HH) was synthesized, which contains a strategically chosen solubilizing electron-rich building block, 3,3'-bis(dodecyloxy)-2,2′-bithiophene (BTO) as a donor. PIBDFBTO-HH has a very small band gap of 0.95 eV, absorbing up to 1700 nm in the near-infrared (NIR) region, which enables its application in NIR photodetection. This polymer exhibits efficient ambipolar charge transport properties with balanced hole and electron mobilities of up to 0.16 cm2 V−1 s−1 and 0.14 cm2 V−1 s−1, respectively, in organic thin film transistors (OTFTs) in the absence of light. In the p-channel operation regime, the organic phototransistor (OPT) devices based on PIBDFBTO-HH demonstrated photosensitivities (P) of 130 and 40 under the illumination of 850 nm and 940 nm LED light sources, respectively. The photoresponsivity (R) under the 940 nm LED reached 450 mA W−1. In contrast, in the n-channel operation regime, a negative photoresponse, namely a decrease in the drain current, was observed, which accounted for the increased number of trapped electrons that offset the applied gate bias."
     releasedAt: 2017-11-06 17:46:06.000000
   article27:
@@ -116,7 +116,7 @@ publications:
     identifier:
       type: doi
       id: 10.1021/acs.macromol.7b01198
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/01466297b57996986b326e8d687d5e56050700f4.pdf
+    pdf: https://jessequinn.info/static/pdfs/1f645f14da9a44aebe573454fdaaf037.pdf
     summary: "Diketopyrrolopyrrole (DPP) derivatives are among the most efficient materials studied for both polymer solar cells (PSCs) and organic field-effect transistors (OFETs) applications. We report here the synthesis of new fluorinated dithienyldiketopyrrolopyrrole (fDT-DPP) monomers suitable for direct heteroarylation polymerization. fDT-DPP copolymers were then prepared to probe the effect of the fluorination. It was found that they feature deeper HOMO energy levels and smaller bandgaps than their non-fluorinated analogues. Moreover, some fDT-DPP copolymers show ambipolar behavior when tested in OFETs. For example, P2 shows hole mobility up to 0.8 cm2 V–1 s–1 and electron mobility up to 0.5 cm2 V–1 s–1. Inverted PSCs with power conversion efficiency (PCE) up to 7.5% were also obtained for P5. These results reported here (OFETs and PSCs) confirm that the fluorination of dithienyl-DPP moieties improves the performance of organic electronics devices. This study is also evidencing the strength of the direct heteroarylation polymerization and fDT-DPP as a new class of conjugated polymers."
     releasedAt: 2017-09-15 17:45:59.000000
   article26:
@@ -139,7 +139,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c7tc03023a
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/dff088a6696b18137a038fc7d5e3e8576cfa3958.pdf"
+    pdf: https://jessequinn.info/static/pdfs/5304495818024d3f8c43bd84e4ebe5a5.pdf
     summary: "We report the photoresponse characteristics of a pyrimido[4,5-g]quinazoline-4,9-dione (PQ) based polymer, PPQ2T-BT-24, which served as an active channel layer in organic phototransistors (OPTs). OPTs using this polymer showed very short rise time of 3 ms and fall time of 59 ms, photoresponsivity (R) of 0.24 and external quantum efficiency (EQE) of 50%. When PC61BM was incorporated into PPQ2T-BT-24, a significantly shortened fall time of 8 ms along with a much-improved rise time of 1 ms were realized. These response times are among the best values reported for OPTs. The R and EQE of the devices using this polymer blend also increased to 0.88 A W−1 and 189%, respectively."
     releasedAt: "2017-08-08 17:45:51.000000"
   article25:
@@ -161,7 +161,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/C7TC01680H
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/cb1975b822e99fd647d9d31c551702c3fe52ec65.pdf"
+    pdf: https://jessequinn.info/static/pdfs/ce9ba0498248484dbad75763c0625545.pdf
     summary: "This review highlights recent major progress in the development of organic semiconductors as electron transport n-channel materials in organic field effect transistors (OFETs). Three types of materials are discussed: (1) small molecules, (2) polymers, and (3) n-doped small molecules and polymers. Much effort has been made in the modification of known building blocks, development of novel building blocks, and optimization of materials processing and device structures. These efforts have resulted in the achievement of record high electron mobilities for both small molecules (12.6 cm2 V−1 s−1) and polymers (14.9 cm2 V−1 s−1), which are approaching the highest hole mobilities achieved by p-type small molecules and polymers so far. In addition, n-doping of ambipolar and p-type organic semiconductors has proven to be an efficient approach to obtaining a greater number of n-type organic semiconductors. However, it is found that n-type organic semiconductors, in general, still lag behind p-type organic semiconductors in terms of carrier mobility and air stability. Further exploration of new building blocks for making novel materials and optimization of processing conditions and device structures are needed to improve the performance, particularly air stability."
     releasedAt: "2017-08-01 17:45:44.000000"
   article24:
@@ -185,7 +185,7 @@ publications:
     identifier:
       type: doi
       id: 10.1016/j.orgel.2017.07.016
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/2851bb09a7a6a3bc2cf79ea22019b50943e5fc84.pdf"
+    pdf: https://jessequinn.info/static/pdfs/4dc2e057af274434a259b92f8bb0a919.pdf
     summary: "We report the synthesis of an aromatic amine-containing polymer (PDPAT-12) and the use of this polymer as an effective additive to an ambipolar polymer semiconductor (PIBDFBT-e37) to realize unipolar n-type charge transport in organic thin film transistors (OTFTs). With 10 wt% PDPAT-12 addition to PIBDFBT-e37, the OTFTs achieved unipolar n-type charge transport with electron mobility of up to 0.42 cm2 V−1 s−1 in nitrogen and 0.19 cm2 V−1 s−1 in air. Moreover, the polymer blend demonstrated improved stability towards ambient air (retaining 50% of its initial electron mobility after exposed in air for 28 days) than the pristine PIBDFBT-e37 (retaining 13% of its initial electron mobility under the same conditions) and the PIBDFBT-e37:PEI (polyethylenimine) blend, which lost transistor behaviour almost instantly once exposed to ambient air. Our results show that the use of this aromatic amine-containing polymer as an additive can convert an ambipolar polymer into an n-type unipolar polymer in OTFTs with much improved air stability."
     releasedAt: "2017-07-11 17:45:36.000000"
   article23:
@@ -208,7 +208,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c7tc01204g
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/b8b34db9c60ceb45f1af2fc68157728b4bbaeace.pdf"
+    pdf: https://jessequinn.info/static/pdfs/63c1ea13b58b4f5298728afb26982f70.pdf
     summary: "Two donor–acceptor (D–A) polymers based on (3E,8E)-3,8-bis(2-oxoindolin-3-ylidene)naphtha-[1,2-b:5,6-b′]difuran 2,7(3H,8H)-dione (INDF) and substituted regioisomeric bithiophene (BT) units with different side chain positions (head-to-head, HH, and tail-to-tail, TT) were synthesized. PINDFBT-(HH) achieved electron (μe) and hole (μh) mobilities as high as 0.33 cm2 V−1 s−1 and 0.15 cm2 V−1 s−1, respectively, while PINDFBT-(TT) showed an order of magnitude lower mobilities with μe of 0.07 cm2 V−1 s−1 and μh of 0.02 cm2 V−1 s−1. The distinctly different electrical performance of these two polymers originates from their different side chain placements on the bithiophene units and consequently different electronic structures, backbone coplanarity, chain packing, and thin film morphology. Our results showed that a bithiophene unit with an HH substitution pattern is much more favoured in terms of the charge transport property of the polymers."
     releasedAt: "2017-05-16 17:45:29.000000"
   article22:
@@ -229,7 +229,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c7tc00711f
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/d799d717d58d5cd80ff72527c4b8fb4934c8cfcc.pdf"
+    pdf: https://jessequinn.info/static/pdfs/e5a574ee923f4a71848e8b2eb9144ba7.pdf
     summary: "A series of new donor–acceptor–donor (D–A–D) small-molecule compounds, with 3,3′-(ethane-1,2-diylidene)bis(indolin-2-one) (EBI) as an electron acceptor building block coupled with various electron donor end-capping moieties (thiophene, bithiophene and benzofuran), were synthesized and characterized. When the fused-ring benzofuran is combined to EBI (EBI-BF), the molecules displayed a perfectly planar conformation and afforded the best charge transport properties among these EBI compounds with a hole mobility of up to 0.02 cm2 V−1 s−1. All EBI-based small molecules were used as donor material along with a PC61BM acceptor for the fabrication of solution-processed bulk-heterojunction (BHJ) solar cells. The best performing photovoltaic devices are based on the EBI derivative using the bithiophene end-capping moiety (EBI-2T) with a maximum power conversion efficiency (PCE) of 1.92%, owing to the broad absorption spectra of EBI-2T and the appropriate morphology of the BHJ. With the aim of establishing a correlation between the molecular structure and the thin film morphology, differential scanning calorimetry, atomic force microscopy and X-ray diffraction analysis were performed on neat and blend films of each material."
     releasedAt: "2017-05-04 17:42:26.000000"
   article21:
@@ -253,7 +253,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c7sc00589j
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/6b1027d1c79f023db5e39cb99a328823af75718c.pdf"
+    pdf: https://jessequinn.info/static/pdfs/6de27c11694847cc8cd2739a85f35c7a.pdf
     summary: "Direct (hetero)arylation polymerization (DHAP) has emerged as a valuable and atom-economical alternative to traditional cross-coupling methods for the synthesis of low-cost and efficient conjugated polymers for organic electronics. However, when applied to the synthesis of certain (hetero)arene-based materials, a lack of C–H bond selectivity has been observed. To prevent such undesirable side-reactions, we report the design and synthesis of new, bulky, phosphine-based ligands that significantly enhance selectivity of the DHAP process for both halogenated and non-halogenated electron-rich and electron-deficient thiophene-based comonomers. To better understand the selectivity issues, density functional theory (DFT) calculations have been performed on various halogenated and non-halogenated electron-rich and electron-deficient thiophene-based comonomers. Calculations showed that the presence of bromine atoms decreases the energy of activation (Ea) of the adjacent C–H bonds, allowing undesirable β-defects for some brominated aromatic units. Both calculations and the new ligands should lead to the rational design of monomers and methods for the preparation of defect-free conjugated polymers from DHAP."
     releasedAt: "2017-03-20 17:45:20.000000"
   article20:
@@ -275,7 +275,7 @@ publications:
     identifier:
       type: doi
       id: 10.1002/celc.201600628
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/8ef4d02dffdbe027c3d21ea4237ca082acd2c188.pdf"
+    pdf: https://jessequinn.info/static/pdfs/2145926023094c2ba6b542b8026aa98b.pdf
     summary: "A donor-acceptor polymer of (3E,7E)-3,7-bis(2-oxoindolin-3-ylidene)benzo[1,2-b : 4,5-b′]difuran-2,6(3H,7H)-dione (IBDF) and bithiophene (BT) exhibits typical ambipolar charge transport behaviour in organic thin film transistors. Using the electron rich triphenylamine as an end capping group, a notable suppression of hole transport is observed. This interesting phenomenon is accounted for by the hole trapping effect of the triphenylamine end-capper. Thus, this study provides a novel and facile approach to tuning the charge carrier polarity of a polymer semiconductor from ambipolar to n-type dominant."
     releasedAt: "2017-01-09 17:45:13.000000"
   article19:
@@ -301,7 +301,7 @@ publications:
     identifier:
       type: doi
       id: 10.1021/acs.macromol.6b02365
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/472442d191234047f422c384297f251420758f60.pdf"
+    pdf: https://jessequinn.info/static/pdfs/d77bdccc171a475eba2776a7b256c8ad.pdf
     summary: "We systematically varied the degree of fluorination along the backbone of a series of highly regioregular 3-hexylthiophene-based polymers, P3HT-50F, P3HT-33F, and P3HT-25F, in which 50%, 33%, and 25% of the thiophene units within the polymer chain contain fluorine atoms in the available 4-position, respectively. These materials were homopolymerized using the Kumada catalyst transfer polycondensation method from a set of mono-fluorinated bi-, ter-, and quarterthiophenes to ensure high polymer regioregularity and evenly spaced fluorine atoms along the conjugated thiophene backbone. The monomers were obtained from a synthetic route consisting of iterative Migita–Stille couplings of fluorinated and non-fluorinated 3-hexylthiophenes. The effect of the fluorine atoms on both polymer structure and properties is presented, with supporting quantum mechanical calculations that rationalize the intrinsic conformation preferences of the three P3HT derivatives. P3HT-50F (M̅n = 34 kg/mol, 98.5% rr), P3HT-33F (M̅n = 46 kg/mol, 98% rr), and P3HT-25F (M̅n = 53 kg/mol, 95% rr) displayed HOMO levels of −5.34, −5.26, and −5.24 eV, bandgaps of 1.98, 1.98, and 1.97 eV, and average field-effect transistor hole mobilities of 4.5 × 10–3, 2.7 × 10–2, and 1.2 × 10–2 cm2 V–1 s–1, respectively."
     releasedAt: "2016-12-27 17:42:11.000000"
   article18:
@@ -326,7 +326,7 @@ publications:
     identifier:
       type: doi
       id: "10.1039/c6ra17595c"
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/dd5144961172fcafc8a41d2b9b80797086933449.pdf"
+    pdf: https://jessequinn.info/static/pdfs/830a33f364994f9dbcaffca3a2758657.pdf
     summary: "We report two novel π-conjugated polymers, PPQ2T-TVT-24 and PPQ2T-TT-24, containing the pyrimido[4,5-g]quinazoline-4,9-dione moiety and thieno[3,2-b]thiophene (TT) and (E)-1,2-bis(thiophen-2-yl)ethene (TVT), respectively, via the Stille cross-coupling reaction. Both polymers displayed good thermal stability and promising field effect transistor performance with hole mobilities of up to 3.08 × 10−3 cm2 V−1 s−1 for PPQ2T-TT-24 and 5.34 × 10−3 cm2 V−1 s−1 for PPQ2T-TVT-24. The ambient air stability of the organic thin film transistors based on these two polymers along with another previously reported PQ polymer containing bithiophene (BT) units, PPQ2T-BT-24, was studied. It was found that the moisture (H2O) in the ambient air is a detrimental component responsible for the degradation of the device performance, while oxygen, in contrast, could enhance the carrier mobility. Our study showed that the electron donor comonomer unit significantly influenced the stability of these polymers towards moisture in the stability order of TT > BT ≫ TVT. It was shown that the interaction between H2O and PPQ2T-TT-24 is physisorption and the device performance could be fully recovered, while the interaction of H2O with two other polymers involved chemical reactions, leading to permanent damages to the polymers and only partially recovered device performance upon removal of moisture."
     releasedAt: "2016-08-12 17:41:39.000000"
   article17:
@@ -347,7 +347,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c6py00762g
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/75c9369af532549023737c1fd8a8f7d21ba59bd1.pdf"
+    pdf: https://jessequinn.info/static/pdfs/2b7ea63ec0fc4fb3b7ee403b7e81bf3b.pdf
     summary: "Two bisthienyl diketopyrrolopyrrole (DPP)-bithiazole based copolymers were synthesised via two different direct (hetero)arylation polymerization (DHAP) routes. When a bisthienyl DPP and 5,5′-dibromo-2,2′-bithiazole were used as monomers, the resulting polymer PA-1 showed poor solubility, ill-organized chain ordering and low performance in organic thin film transistors (OTFTs). Surprisingly, the synthetic route using a dibrominated bisthienyl DPP and 2,2′-bithiazole as monomers produced a polymer PB-1 with improved solubility, much higher crystallinity and excellent charge transport performance in OTFTs. The electron and hole mobilities of up to 0.53 cm2 V−1 s−1 and 0.06 cm2 V−1 s−1, respectively, achieved for PB-1 are more than one order of magnitude higher than those of PA-1 and also better than the mobilities reported for a similar polymer synthesized via Stille coupling polymerization. The dramatically different carrier mobilities observed for these two polymers are accounted for by their different amounts of α–β coupling linkages and branched (and lightly cross-linked) structure defects formed in the respective synthetic routes. This work also demonstrated for the first time that 2,2′-bithiazole is a suitable monomer for the construction of conjugated polymers with good electron transport performance via DHAP."
     releasedAt: "2016-06-13 17:41:46.000000"
   article16:
@@ -371,7 +371,7 @@ publications:
     identifier:
       type: doi
       id: 10.1016/j.dyepig.2016.05.011
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/8d85caa98640e50722929a1540b1ec7c18492192.pdf"
+    pdf: https://jessequinn.info/static/pdfs/f757ae35d4354b48943dd42ab6d8dbb9.pdf
     summary: "We report the synthesis of a novel electron acceptor building block, fluorene-fused triphenodioxazine (FTPDO), and a donor-acceptor polymer based on FTPDO and bithiophene, PFTPDOBT. This new polymer possesses a narrow band gap (1.66 eV) with low-lying frontier energy levels and exhibits hole transport characteristics in organic thin film transistors (OTFTs). Thin films of PFTPDOBT show remarkable thermal stability in air at temperatures of up to 250 °C with no noticeable differences in UV–Vis absorption characteristics in comparison to the films annealed in nitrogen. Surprisingly, OTFTs with the polymer thin films annealed in air and measured in air outperform significantly the devices annealed and measured in nitrogen."
     releasedAt: "2016-05-12 17:41:32.000000"
   article15:
@@ -392,7 +392,7 @@ publications:
     identifier:
       type: doi
       id: 10.1016/j.orgel.2016.05.003
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/fa278ecc1d8aca970be09bc98a4482ae9e289afa.pdf"
+    pdf: https://jessequinn.info/static/pdfs/85a37b53c1ee4b12b81a64ce413cf0ec.pdf
     summary: "A novel acceptor building block, 3,7-bis((E)-2-oxoindolin-3-ylidene)-3,7-dihydrobenzo[1,2-b:4,5-b′]dithiophene-2,6-dione (IBDT), is developed to construct a donor-acceptor polymer PIBDTBT-40. This polymer has favorable highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) energy levels for balanced ambipolar charge transport. Organic thin film transistors (OTFTs) based on this polymer shows well-balanced ambipolar characteristics with electron mobility of 0.14 cm2 V−1 s−1 and hole mobility of 0.10 cm2 V−1 s−1 in bottom-gate bottom-contact devices. This polymer is a promising semiconductor for solution processable organic electronics such as CMOS-like logic circuits."
     releasedAt: "2016-05-05 17:41:22.000000"
     "created_at": "2020-04-02 17:41:22.000000"
@@ -418,7 +418,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c6ra06316k
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/5cb15fb5ab8f05a43b4e59231176084716194bf7.pdf"
+    pdf: https://jessequinn.info/static/pdfs/4b78e5e9dcf04173ac5bf7eae5eb5f20.pdf
     summary: "The synthesis of three new isomerically pure (E,E,E)-form thiophene-S,S-dioxidized indophenine (IDTO) compounds, (3Z,3′Z)-3,3′-((E)-1,1,1′,1′-tetraoxido-5H,5′H-[2,2′-bithiophenylidene]-5,5′-diylidene)bis(1-dodecyl-indolin-2-one) (4a-S1), (3Z,3′Z)-3,3′-((E)-1,1,1′,1′-tetraoxido-5H,5′H-[2,2′-bithiophenylidene]-5,5′-diylidene)bis(5-bromo-1-dodecyl-indolin-2-one) (4b-S1) and (3Z,3′Z)-3,3′-((E)-1,1,1′,1′-tetraoxido-5H,5′H-[2,2′-bithiophenyldene]-5,5′-diylidene)bis(6-bromo-1-dodecyl-indolin-2-one) (4c-S1), and their use as n-channel semiconductors for organic thin film transistors (OTFTs) are reported. Compared to the non-oxidized parent indophenine compound 3,3′-(5H,5′H-[2,2′-bithiophenylidene]-5,5′-diylidene)bis(1-dodecylindolin-2-one) (3a), 4a-S1 exhibited significantly lower HOMO and LUMO energy levels. Having bromine atoms at the 5,5′- (4b-S1) or 6,6′-positions (4c-S1), the HOMO and LUMO energy levels further decreased. In OTFT devices, these IDTO compounds exhibit unipolar n-type semiconductor behavior due to their significantly deeper LUMO and HOMO energy levels than those of 3a that shows ambipolar charge transport performance. The maximum electron mobilities of 4a-S1, 4b-S1 and 4c-S1 are in the order of 10−2 to 10−1 cm2 V−1 s−1, which are much higher than that of 3a (∼10−3 cm2 V−1 s−1), originating from the lower LUMO energy levels and the high isomeric purities of the former compounds. Among the three IDTO compounds, 4c-S1 shows the highest electron mobility of up to 0.11 cm2 V−1 s−1, which is likely due to its most extended π-electron delocalization on the LUMO wavefunction."
     releasedAt: "2016-04-28 17:41:11.000000"
   article13:
@@ -439,7 +439,7 @@ publications:
     identifier:
       type: doi
       id: "10.1016/j.dyepig.2016.04.002"
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/7558931a1eec604a05883764c27c1da4988a2cff.pdf"
+    pdf: https://jessequinn.info/static/pdfs/b690c293fc094e4080e2abe6371639b2.pdf
     summary: "A trimer of diketopyrrolopyrole (DPP), Tri-BTDPP, was synthesized and characterized. Tri-BTDPP has a HOMO level of −5.34 eV, a low band gap of 1.33 eV, and a hole mobility of ∼10−3 cm2 V−1 s−1 in organic field effect transistors (OFETs). Organic photovoltaic (OPV) devices using the donor/acceptor blends of Tri-BTDPP and PC71BM exhibited low power conversion efficiencies (PCE) of up to 0.72%, even though the desirable optical and electronic characteristics of this compound as a donor semiconductor for achieving high performance for OPV. Through an intensive study of the active layer using AFM, XRD, and DSC, it was found that Tri-BTDPP and PC71BM were unable to intermix and formed oversized Tri-BTDPP phases, resulting in poor charge separation. Some guidance on how to improve the OPV performance of Tri-DPP compounds is provided."
     releasedAt: "2016-04-02 17:41:55.000000"
   article12:
@@ -462,7 +462,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/C6RA03221D
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/533f9f32ae2fdac39d96d481be10aa5c22bbcf39.pdf"
+    pdf: https://jessequinn.info/static/pdfs/2ae02d2305b5482d8b306ea0a86ffcce.pdf
     summary: "Two donor–acceptor (D–A) conjugated polymers, PIDTOBT and PIDTOBTz, based on thiophene-S,S-dioxidized indophenine (IDTO) as the acceptor building block are synthesized for solution processed organic thin-film transistors (OTFTs). The influences of the donor unit on the photophysical, electrochemical and electron-transport properties were investigated. These polymers possess very deep highest-occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) energy levels due to the strong electron accepting capability of the IDTO moiety. In OTFT devices, both polymers exhibited unipolar n-type charge transport characteristics with electron mobility up to 0.18 cm2 V−1 s−1."
     releasedAt: "2016-03-31 17:42:02.000000"
   article11:
@@ -485,7 +485,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5ra26227e
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/68e54129388852ad402eba22e62d64fe3763489a.pdf"
+    pdf: https://jessequinn.info/static/pdfs/b7da741a087c4e59a50c5482321ebf1f.pdf
     summary: "Pyrazino[2,3-g]quinoxaline-2,7-dione (PQx) was used as a building block for π-conjugated polymer semiconductors, which demonstrated a strong acid affinity by showing marked bathochromic shifts in their absorption spectra. These polymers exhibited semiconductor performance in organic thin film transistors (OTFTs). Copolymers of PQx and bithiophene exhibited electron-dominant ambipolar transport characteristics with electron mobilities of up to 4.28 × 10−3 cm2 V−1 s−1 and hole mobilities of up to 5.22 × 10−4 cm2 V−1 s−1, while copolymers of PQx and thieno[3,2-b]thiophene exhibited hole-dominant ambipolar transport characteristics with hole mobilities of up to 4.82 × 10−2 cm2 V−1 s−1 and electron mobilities of up to 3.95 × 10−3 cm2 V−1 s−1."
     releasedAt: "2016-02-17 17:41:03.000000"
   article10:
@@ -508,7 +508,7 @@ publications:
     identifier:
       type: doi
       id: 10.1002/anie.201508781
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/b686b9dfb5630505fc460cccd8a56079066babbe.pdf"
+    pdf: https://jessequinn.info/static/pdfs/1591f682a21c4c28986d1cd5d69722e7.pdf
     summary: "Three thiophene-S,S-dioxidized indophenine (IDTO) isomers, 3 a (E,E,E), 3 b (Z,E,E), and 3 c (Z,E,Z), were synthesized by oxidation of an indophenine compound. 3 b and 3 c could be converted into the most-stable 3 a by heating at 110 °C. An IDTO-containing conjugated polymer, PIDTOTT, was prepared using 3 a as a comonomer through a Stille coupling reaction, and it possesses a narrow band gap and low energy levels. In organic field effect transistors (OFETs), PIDTOTT exhibited unipolar n-type semiconductor characteristics with unexpectedly high electron mobility (up to 0.14 cm2 V−1 s−1), despite its rather disordered chain packing."
     releasedAt: "2016-02-02 17:40:55.000000"
   article9:
@@ -532,7 +532,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5tc02472b
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/fe7cea9922266f41bd8ea35628eb6464130bf27a.pdf"
+    pdf: https://jessequinn.info/static/pdfs/e46c0ee4db9c4aa4b3acc7983663c40a.pdf
     summary: "Pyrimido[4,5-g]quinazoline-4,9-dione (PQ) was used for the first time as a building block for π-conjugated polymer semiconductors. Copolymers of PQ and bithiophene showed dramatic bathochromic shifts in their absorption spectra in the presence of protonic (acetic acid and trifluoroacetic acid) and Lewis (BBr3) acids, resulting from the strong interaction of the basic 1,6-nitrogen atoms in the PQ unit with the acid. These polymers exhibited characteristic p-type semiconductor performance with hole mobilities of up to 6.4 × 10−3 cm2 V−1 s−1 in organic thin-film transistors (OTFTs). The potential bioactivity, high sensitivity to acids, and good field effect transistor performance of these PQ-based polymers will enable their application for bio- and chemo-sensors."
     releasedAt: "2015-10-26 17:40:47.000000"
   article8:
@@ -553,7 +553,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5py00821b
-    pdf: "https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/4d47347c2c3ca67870328ed7aa02c813a5480d7e.pdf"
+    pdf: https://jessequinn.info/static/pdfs/e64156cdb3134f36ba8419ab6717824b.pdf
     summary: "In this work we report the opposite charge transport polarity observed for two regioisomeric polymer semiconductors. Previously, we observed n-type electron transport behaviour for a polymer semiconductor, 6,6′-PIDBDT, which contains 6,6′-indigo units. Electron distributions in the lowest unoccupied molecular orbital (LUMO) and the highest occupied molecular orbital (HOMO) of indigo calculated by density functional theory (DFT) could explain the electron transport behaviour since electrons can be delocalized along the polymer backbone through the LUMO rather than the HOMO via the 6- and 6′-positions. Serendipitously, we found that the 5- and 5′-positions of indigo are occupied by electrons in the HOMO but empty in the LUMO, opposite to the 6- and 6′-positions. This suggests that 5,5′-PIDBDT containing the 5,5′-indigo units, a regioisomer of 6,6′-PIDBDT, may exhibit the opposite p-type charge transport behaviour. To prove our assumption, we synthesized 5,5′-PIDBDT and found that this polymer indeed showed p-type semiconductor behaviour. Hence we demonstrated a novel approach to control the electron or hole charge transport polarity by simply varying the main chain regiochemical connections."
     releasedAt: "2015-08-18 17:40:37.000000"
   article7:
@@ -575,7 +575,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5py00782h
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/f322bf8c1c09d2dc620f37b36a21f673da4f779a.pdf
+    pdf: https://jessequinn.info/static/pdfs/752164b0d18b437e8dc6590bfde7c80f.pdf
     summary: "We report the development and use of a new type of branched alkyl ester side chain for donor–acceptor polymers. The synthesis of the branched alkyl ester side chain precursors is simple and the side chain's branching position and branch length can be adjusted conveniently by choosing the readily available starting materials. (3E,7E)-3,7-bis(2-oxoindolin-3-ylidene)benzo[1,2-b:4,5-b′]difuran-2,6(3H,7H)-dione (IBDF) based donor–acceptor polymers were previously found to have poor solubility in common organic solvents. Herein, we used this new type of branched alkyl ester side chain for the copolymers of IBDF and bithiophene and explored how the branch length would impact the microstructure and charge transport properties of these polymers. With an optimal branch length, the polymer demonstrated ambipolar charge transporting characteristics with a high electron mobility of up to 0.35 cm2 V−1 s−1 and a hole mobility of up to 0.20 cm2 V−1 s−1 in organic thin film transistors (OTFTs), which is comparable to the one with branched alkyl side chains."
     releasedAt: 2015-08-04 17:40:27.000000
   article6:
@@ -598,7 +598,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5cc03917g
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/69e74309cfb73040806a8a54f2fecf4cb2272783.pdf
+    pdf: https://jessequinn.info/static/pdfs/b17a2299941d438087aec913849bce23.pdf
     summary: "Two donor–acceptor (D–A) conjugated polymers, PINDFTT and PINDFBT, based on a novel electron acceptor, (3E,8E)-3,8-bis(2-oxoindolin-3-ylidene)naphtho-[1,2-b:5,6-b′]difuran-2,7(3H,8H)-dione (INDF), are synthesized for solution processed organic thin-film transistors. Both polymers exhibited highly balanced ambipolar characteristics with hole and electron mobilities up to 0.51 cm2 V−1 s−1 and 0.50 cm2 V−1 s−1, respectively."
     releasedAt: 2015-07-16 17:39:45.000000
   article5:
@@ -619,7 +619,7 @@ publications:
     identifier:
       type: doi
       id: 10.1016/j.colsurfa.2015.05.024
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/10c527a906622214423edc5571f44fa4d13c9b1d.pdf
+    pdf: https://jessequinn.info/static/pdfs/0963c1e4c2624543b8069f7c0a38a525.pdf
     summary: "The surface of polydimethylsiloxane (PDMS) elastomer was hydrophilized by poly(acrylic acid) (PAAc) using Surface Initiated Atomic Transfer Radical Polymerization (Si-ATRP). The ATRP initiator chosen was ((Chloromethyl) phenylethyl) trichlorosilane, which was immobilized on the surface of the PDMS through a simple but innovative method of drop coating, in contrast to the commonly used vapor deposition and solution-immersion methods. Attenuated Total Reflectance Fourier Transform Infrared (ATR-FTIR) and X-ray Photoelectron Spectroscopy (XPS) were employed to examine surface properties of modified PDMS and confirmed presence of the PAAc chains covalently bonded to the PDMS surface. Physical properties and topography of the modified sample were characterized by water contact angle measurement and Atomic Force Microscopy. It is shown that the drop-coating of the silane initiator for ATRP modification with PAAc can result in good surface hydrophilization while causing minimum damage to the PDMS preserving its desired optical transparency. The resultant hydrophilic PDMS is stable in air and has film lubrication behavior in aqueous conditions and may be used in the development of advanced microfluidic devices and sensors where both surface hydrophilicity and bulk transparency are desired."
     releasedAt: 2015-05-28 17:39:12.000000
   article4:
@@ -640,7 +640,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5tc00512d
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/bfc4aacf014bbf165220210d4bc68c7040ddf2f2.pdf
+    pdf: https://jessequinn.info/static/pdfs/14a65722296c4b22bc30b95b52244cb9.pdf
     summary: "A new n-type semiconducting polymer based on indigo having thermocleavable tert-butoxycarbonyl (t-Boc) groups was synthesized and used as an active layer in organic thin film transistors (OTFTs). Twisting of the polymer main chain due to the presence of the bulky t-Boc groups renders this indigo-based polymer highly soluble. A post-deposition thermal treatment at a temperature above 170 °C could remove the t-Boc groups to retrieve the highly coplanar geometry of the unsubstituted indigo units. The thermally annealed polymer semiconductor films at 200 °C showed an electron mobility of up to ∼6 × 10−3 cm2 V−1 s−1 in OTFTs, which is a 5-fold increase compared to that of the indigo-based polymers reported previously due to the retrieved high backbone coplanarity."
     releasedAt: 2015-04-15 17:38:42.000000
   article3:
@@ -662,7 +662,7 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c5cc01021g
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/1abf02a66c492c49a65118f70ce7b137083161c7.pdf
+    pdf: https://jessequinn.info/static/pdfs/55f0395d23d1476cac03dee40a9af434.pdf
     summary: "A novel acceptor, (3E,7E)-3,7-bis(2-oxoindolin-3-ylidene)-5,7-dihydropyrrolo[2,3-f]indole-2,6(1H,3H)-dione, was reported. Donor–acceptor (D–A) polymer semiconductors using this new building block showed high ambipolar charge transport performance with hole and electron mobilities up to 0.19 and 0.09 cm2 V−1 s−1, respectively, in thin film transistors."
     releasedAt: 2015-04-06 17:37:30.000000
   article2:
@@ -682,7 +682,7 @@ publications:
     identifier:
       type: doi
       id: 10.1016/j.tetlet.2015.03.085
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/50354d27101c9f811fc4d63683f55695f09e8ba4.pdf
+    pdf: https://jessequinn.info/static/pdfs/10742234fb594b548bb97991e9a5c025.pdf
     summary: "A facile and moderate to high yielding protocol is reported for the synthesis of 2,7-bis(5-bromothiophen-2-yl)-3,8-bis(2-decyltetradecyl)-3,8-dihydropyrimido[4,5-g]quinazoline-4,9-dione, which can be potentially used to synthesize other pyrimido[4,5-g]quinazoline-4,9-diones. Moreover, new pyrimido[4,5-g]quinazoline-4,9-diones synthesized by this route can potentially be used as organic semiconductors."
     releasedAt: 2015-03-21 17:37:13.000000
   article1:
@@ -704,6 +704,6 @@ publications:
     identifier:
       type: doi
       id: 10.1039/c3tc32276a
-    pdf: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/dist/assets/9d7fabd9-594f-4b6e-b67f-8a24c1f24996/pdf/774790a529f98f7b9a204d12f665604841e26398.pdf
+    pdf: https://jessequinn.info/static/pdfs/f7b450e6ed02495fbf39187ed1b535db.pdf
     summary: "Indigo is for the first time used as a building block to construct polymer semiconductors for organic thin film transistors (OTFTs). Two donor–acceptor polymers using indigo as the acceptor and bithiophene as the donor are synthesized via Stille coupling polymerization. Two types of acyl groups, 2-hexldecanoyl (for polymer P1) and 2-octyldodecanoyl (for polymer P2), are utilized as solubilizing side chains. These polymers possess very deep highest-occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) energy levels, due to the strong electron accepting capability of the indigo moiety. In OTFT devices, characteristic n-type semiconductor performance with electron mobility of up to ∼10−3 cm2 V−1 s−1 is observed."
     releasedAt: 2014-03-04 17:34:09.000000
