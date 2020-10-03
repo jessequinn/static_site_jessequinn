@@ -44,6 +44,9 @@ steps:
         - master
         - develop
 
+depends_on:
+  - test
+
 trigger:
   branch:
     - master
