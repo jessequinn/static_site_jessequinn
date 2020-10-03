@@ -1,0 +1,28 @@
+id,title,abstract,imageUrl,is_featured,created_at
+1,ACS Override Patched Manjaro Kernel Walk-through,A quick walk-through for the installation of an ACS override patch.,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-03-04 21:07:56.612000
+2,GPU Pass-through Manjaro Walk-through,A simple walk-through of a GPU Pass-through on a Manjaro desktop.,yohei-shimomae-NkQR-rlIM44-unsplash.jpg,true,2019-10-28 16:36:58.000000
+3,Graylog 3 Trial and Error Walk-through,Graylog installation on Manjaro and discussion of a multi-node setup.,patrick-hendry-HBeI5X212lU-unsplash.jpg,false,2019-10-28 16:43:26.000000
+4,LAMP Installation on Manjaro,"A walk-through on how to configure Linux, Apache, MariaDB, and PHP (LAMP) for development or production purposes.",markus-spiske-466ENaLuhLY-unsplash.jpg,false,2019-10-28 16:47:41.000000
+5,Drone Adventures,A brief look at drone.io - an automating testing and delivery software.,diana-macesanu-fvPfMJL2wKw-unsplash.jpg,true,2019-11-02 17:42:54.000000
+6,More on Drone.io,I have moved from `exec` style pipelines to the isolated `docker` pipeline.,diana-macesanu-fvPfMJL2wKw-unsplash.jpg,true,2019-11-09 11:35:54.000000
+7,MLPs with Numpy,I present some recent work in my study of multilayered perceptrons (MLPs),joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:53:51.000000
+8,PyQt5 Programming,PyQt5 is a pretty sweet set of Python bindings for Qt application framework that is comprised of numerous useful components,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:55:00.000000
+9,Compiling Tensorflow,A brief run through for compiling a pip wheel for an optimized gpu Tensorflow,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:55:58.000000
+10,Top 5% of Highly Cited Authors,Interesting email received!,hal-gatewood-OgvqXGL7XO4-unsplash.jpg,false,2019-11-02 20:48:30.000000
+11,New publication,Just highlighting a recent joint publication with NRC.,hal-gatewood-OgvqXGL7XO4-unsplash.jpg,false,2019-12-29 21:37:43.000000
+12,Pushing Dockerfiles,Just a quick tutorial on how to push Dockerfiles,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2020-01-05 15:03:46.000000
+13,Micro Kong,"I discuss recent work with Kong, an API gateway, and Micro, a Golang framework for rapid development of microservices.",joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2020-01-19 14:47:43.000000
+14,Logging Symfony applications to a ELK stack,I show you how to quickly setup your Symfony application to log to a ELK stack.,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2020-02-23 19:25:04.000000
+15,Resizing Amazon EBS Elastic Volumes,Just a quick tutorial on how to resize your amazon EBS elastic volume,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-11-09 14:56:27.000000
+16,Highlight.js and Webpack-encore,Just another quick tutorial on installing Highlight.js with  Webpack-encore - Symfony,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-11-09 15:06:35.000000
+17,Golang GraphQL Server,I briefly discuss a GraphQL server written in GO that allows for both OAuth2 and general registration access.,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-12-26 20:50:53.000000
+18,Dockerizing a Mongodb Replica Set,Just a quick and informative post about creating a replicate set with Mongodb and Docker-compose.,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,true,2019-12-28 21:03:17.000000
+19,An interesting adventure with a PHP CMS // Part 1,"A walk-through of PHP, Heroku, Mysql and the Slim microframework for web development",joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:44:34.000000
+20,An interesting adventure with a PHP CMS // Part 2,A continuation of developing a CMS with the Slim microframework,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:48:55.000000
+21,Google Photos API and Photo Storage,Google Photos API how-to,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:50:28.000000
+22,I See the Truth Now!!! Imgur API,An update to my original Google API post. I discuss the use of Imgur API and PHP.,joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:52:55.000000
+23,"Working with Linters, Fixers, Hooks for Github, etc.","A short discussion of linters, fixers, etc. that I use for web development",joao-tzanno-G9_Euqxpu4k-unsplash.jpg,false,2019-10-28 16:51:40.000000
+24,Kong Ingress,I install Kong ingress and manage with Konga.,simon-ray-EfASbqkuh2A-unsplash.jpg,true,2020-06-19 14:43:52.462531
+25,Metrics with Prometheus,I piece together the installation and configuration of Prometheus and Alert Manager on Kubernetes.,miguel-a-amutio-ngZ4V-myG5s-unsplash.jpg,true,2020-06-20 12:45:27.763516
+26,Grafana on Kubernetes,"Quickly configure and install Grafana, Loki, and Promtail on Kubernetes.",john-towner-3Kv48NS4WUU-unsplash.jpg,true,2020-06-20 17:21:54.040262
+27,Elastic stack with Redis,A lengthy article on how to setup an Elastic stack as a cluster with Redis and TLS/SSL.,eaters-collective-rS1GogPLVHk-unsplash.jpg,true,2020-07-04 13:22:47.796715

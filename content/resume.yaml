@@ -1,0 +1,520 @@
+work:
+  companies:
+    indyxa:
+      company: Indyxa
+      position: Developer
+      website: https://www.indyxa.com.br/
+      startedAt: 2020-04-13 20:46:42.000000
+      endedAt:
+      summary: "Employed Zabbix and Elastic stack using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files)."
+      highlights:
+        - ELK
+        - Zabbix
+        - Event Handling
+        - Monitoring
+        - Logging
+        - Metrics
+        - Python
+        - Ansile
+    scicoc-connect:
+      company: ConnecTV
+      position: Developer
+      website: https://scidoc.dev/
+      startedAt: 2020-03-25 21:19:34.000000
+      endedAt:
+      summary: "Manage several projects related to IPTV. Designed and implemented microservices backend with NestJS. Utilized NuxtJS/VueJS for frontend. Created and manage MX mailservers, elastic stack, kubernetes and docker-compose orchestration. "
+      highlights:
+        - NestJS
+        - NuxtJS
+        - VueJS
+        - Elastic Stack
+        - NodeJS
+        - ExpressJS
+        - AngularJS
+        - Microservices
+        - Drone
+        - Testing
+    vivtech:
+      company: Viviholdings
+      position: Senior Developer
+      website: https://vivitech.com.br/
+      startedAt: 2019-06-01 21:12:20.000000
+      endedAt: 2020-05-15 09:13:19.000000
+      summary: "Day to day tasks involved modifying legacy Symfony PHP code, javascript, html and css. Created and maintained several plugins and themes for Wordpress and Woocommerce. Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD. Created and maintained several APIs based on API-Platform and Golang (micro.mu)"
+      highlights:
+        - PHP
+        - Symfony
+        - Javascript
+        - Worpdress
+        - Woocommerce
+        - Microservices
+        - Drone
+        - Elastic Stack
+        - NodeJS
+        - ExpressJS
+        - AngularJS
+        - Testing
+        - API-Platform
+        - Golang
+education:
+  schools:
+    uwaterloophd:
+      institution: University of Waterloo
+      area: Chemical Engineering (Nanotechnology)
+      studyType: doctorate
+      startedAt: 2013-09-01 18:52:12.000000
+      endedAt: 2017-05-01 18:52:12.000000
+      gpa:
+      website: https://uwaterloo.ca/chemical-engineering/
+      courses:
+        - "CHE745 - Topic 14: Synthetic Meth pi-conjug Poly"
+        - "NANO701 - Topic 3: Self-Assembly Phenomena"
+        - "NANO701 - Topic 11: Intro & Advanced Nanomechanics"
+        - "NANO702 - Topic 3: Self-Assembly Tools"
+        - "NANO702 - Topic 6: Microscopy"
+        - "ECE730 - Topic 24: Fab Nanoscale: Tech & Appls"
+      highlights:
+        - "Synthesis and characterization of novel semiconductive polymers for use in organic thin film transistors (OTFTs)"
+        - "Computational studies employing density functional theory (DFT) calculations"
+        - "Fabrication and characterization of OTFTs as bio-and chemosensors"
+      summary: "The concept of an organic thin film transistor was first introduced in the late 1980s and research was directed toward two key merits of performance: field-effect mobility and current ON/OFF ratio. Today these two key merits of performance are still highly sought after; however, a shortcoming associated with most organic semiconductors is their susceptibility to chemical interactions and photo-excitation; to name but a few of their caveats. Consequently, the development of organic semiconductors with high charge carrier transport as well as good air stability is still desired. Nature provides a vast diversity of materials and looking for natural or nature inspired semiconductors appears to be a promising route towards interesting and pertinent materials."
+    ryersonmsc:
+      institution: Ryerson University
+      area: Molecular Science
+      studyType: master's
+      startedAt: 2010-09-08 18:54:50.000000
+      endedAt: 2013-06-01 18:54:50.000000
+      gpa:
+      website: https://www.ryerson.ca/cab/graduate/
+      courses:
+        - "MS8109 - Directed Studies Molecular Sci"
+        - "MS8105 - Molecular Recognition"
+        - "MS8108 - Adv Structure Determination"
+        - "CHE616 - Water and Wastewater Treatment"
+        - "CHE715 - Membrance Technology"
+      highlights:
+      summary: "Both reduced zirconocene (\"Cp2Zr\") and zero valent lithium are known to induce coupling of alkynes to form dimers, oligmers, and polymers. Established work from Fagan et al., Tilley et al., and Eisch et al. was used as the basis for the synthesis of desired targets. First, the attempted syntheses of novel Group IV metalloles from a zirconocene intermediate were studied. There was no conclusive data to state that 2,3,4,5-tetraphenylzirconacyclopentadiene will undergo metallacycle transfer with CrCl3 and FeCl3. The presence of zirconocene dichloride suggests that metallacycle transfer may have occurred, which warrants further investigation. Monomers, 1-bromo-4-hex-1-ynyl-benzene, 1-bromo-3-(phenylethynyl)benzene, and p-dihex-1-ynylbenzene, were synthesized successfully via Sonogashira coupling. Attempts to synthesize novel monomers via lithium and \"Cp2Zr\" had mixed results. 1H NMR acquisition of the hydrolyzed product from zirconocene-coupling of 1-bromo-3-(phenylethynyl)benzene appeared to be successful. Lastly, lithium and \"Cp2Zr\" induced polymerization of novel monomers and known monomers were attempted. Metallacycle transfer from the zirconocene intermediate polymers to thiophene, thiopheneoxide, thiophenedioxide, and phosphole were attempted. However, limited characterization was completed. 1H NMR acquisitions suggest polymer by the loss of resolution and broadening of resonance signals, but further characterization via GPC is required. Monomers, and polymers were characterized using various means such as 1H, 13C, 31P, 119Sn NMR spectroscopy, UV-Vis spectroscopy, AIMS AccuTOF-DART mass spectrometry and GPC."
+    ryersonbsc:
+      institution: Ryerson University
+      area: Chemistry
+      studyType: undergraduate
+      startedAt: 2005-08-25 18:53:55.000000
+      endedAt: 2010-06-18 18:53:55.000000
+      gpa:
+      website: https://www.ryerson.ca/cab/undergraduate/
+      courses:
+        - "CKIH200 - Science Mentorship"
+        - "SCI180 - Orientation"
+        - "CPS118 - Intro Prog for Scientists"
+        - "EMS201 - Entrepreneurship/Innovation"
+        - "EMS202 - Operations Management"
+        - "CECN210 - Inflation/Unemployment in Can"
+        - "CECN505 - Issues in Cdn Labour Markets"
+        - "CMUS101 - Intro World/Early Euro Music"
+        - "CMN600 - Science, Comm and Society"
+        - "ECN801 - Principles of Eng Economics"
+        - "CHST701 - Scientific Tech/Society 20th C"
+        - "CHST522 - Mideast: Conf/Coop 1914-1991"
+        - "SPN101 - Introduction Spanish 1"
+        - "BLG143 - Biology 1"
+        - "BLG144 - Biology 2"
+        - "BLG311 - Cell Biology"
+        - "BLG402 - Limnology"
+        - "BLG400 - Genetics"
+        - "BBLG401 - Ecotoxicology"
+        - "CHY261 - Biochemistry"
+        - "CHY103 - General Chemisry 1"
+        - "CHY113 - General Chemistry 2"
+        - "CHY142 - Organic Chemistry 1"
+        - "CHY242 - Organic Chemistry 2"
+        - "CHY213 - Analytical Chemistry 1"
+        - "CHY223 - Analytical Chemistry 2"
+        - "CHY381 - Physical Chemistry 1"
+        - "CHY382 - Physical Chemistry 2"
+        - "CHY344 - Inorganic Chemistry 1"
+        - "CHY449 - Inorganic Chemistry 2"
+        - "CHY445 - Materials Chemistry"
+        - "CHY434 Analytical Chem-Complex Sample"
+        - "CHY330 Atomic/Molecular Spectroscopy"
+        - "CHY337 - Spectroscopy in Organic Chem"
+        - "CHY331 - Basic Chromatography"
+        - "CHY423 - Environmental Science"
+        - "CHY600 - Organic Reaction Mechanisms"
+        - "CHY40B - Research Project: Thesis-B"
+        - "MTH131 - Modern Mathematics 1"
+        - "MTH231 - Modern Mathematics 2"
+        - "MTH330 - Calculus and Geometry"
+        - "MTH380 - Probability and Statistics 1"
+        - "PCS120 - Physics 1"
+        - "PCS130 - Physics 2"
+        - "PCS353 - Quantum Mechanics"
+      highlights:
+      summary: "This thesis reviews the steps required to work towards the synthesis of metal-containing inverse crown macrocycles based on zirconocene-coupling of diynes. Particular focus was on developing a new diyne precursor, 1,4-bis(hexynyldimethylsilyl)benzene, which could potentially promote inverse crown formation during macrocyclization of the polymer and/or during metallacycle transfers. Moreover, the new diyne offers other benefits such as increased safety, and the use of readily available and lower-cost reagents over the original diyne precursor, 1,4-bis(propynyldimethylsilyl)benzene, which Tilley et al. reported using. The newly synthesized diyne 1,4-bis(hexynyldimethylsilyl)benzene was discussed and compared to 1,4- bis(propynyldimethylsilyl)benzene. Subsequent developments were to establish a new route to new main group 13 metalloles, such as gallole and aluminole, via stannole intermediates. Work based on Eisch et al., and Fagan et al. were utilized as a basis to develop a new route to new main group 13 metalloles. Results show that the proposed route in this thesis is a potential route to developing new main group 13 metalloles. Aliquots of stannole solutions treated with either aluminum trichloride or gallium trichloride were discussed and compared."
+    seneca:
+      institution: Seneca College
+      area: Computer programming and analysis
+      studyType: technical
+      startedAt: 2000-09-01 18:56:42.000000
+      endedAt: 2004-08-31 18:56:42.000000
+      gpa:
+      website: https://www.senecacollege.ca/programs/fulltime/CPA.html
+      courses:
+        - "EAC149 - English and Communications"
+        - "EAC150 - College English"
+        - "EAC217 - The Short Story"
+        - "EAC397 - Business Report Writing"
+        - "LAN115 - Conversational Spanish for Beginners"
+        - "APC100 - Applied Professional Communications"
+        - "ICA001 - INTRODUCTION TO COMPUTERS AND APPLICATIONS"
+        - "ICS124 - INTRODUCTION TO COMPUTER SYSTEMS"
+        - "APC100 - Applied Professional Communications"
+        - "OPS134 - Introduction to Microcomputer Operating Systems"
+        - "OPS224 - Operating Systems - UNIX"
+        - "OPS234 - AS/400's OS/400 Midrange Operating System"
+        - "SYS264 - Business Systems and Analysis"
+        - "SYS364 - Systems Analysis and Design"
+        - "DBS355 - Introduction to Database"
+        - "DBS455 - Structured Query Language (SQL)"
+        - "IPC144 - Introduction to Programming Using C"
+        - "DBL526 - Advanced Database Concepts using Oracle"
+        - "OOP244 - Introduction to Object Oriented Programming"
+        - "SYS366 - Requirements Gathering Using OO Models"
+        - "INT428 - Internet Content Development and Mangement"
+        - "JAC444 - Introduction to Java for C++ Programmers"
+        - "NET605 - Security Considerations for Data Communications"
+        - "PRJ566 - Project Planning and Management"
+        - "PRO403 - Visual Basic"
+        - "UNX511 - UNIX Systems Programming"
+        - "INT422 - Internet III - Web Programming on Windows"
+        - "PRJ666 - Project Implementation"
+        - "PRO403 - Visual Basic"
+        - "WSA500 - Web Services Architecture"
+      highlights:
+      summary: "The Computer Programming and Analysis program provides you with a rigorous theoretical background in object-oriented methodology, particularly in program design and system analysis. Integration of web concepts and focus on the development of dynamic database-driven web applications on a variety of operating system platforms was taught."
+  certificates:
+    icsi:
+      institution: ICSI
+      area: Certified Network Security Specialist
+      startedAt: 2020-06-27 09:54:51.000000
+      endedAt:
+      certificate:
+      website: https://www.icsi.co.uk/
+      topics:
+        - Network
+        - Security
+        - Firewall
+    certiprof:
+      institution: CertiProf
+      area: Scrum Foundations Professional Certificate
+      startedAt: 2020-06-26 09:37:47.000000
+      endedAt: 2020-06-26 09:37:42.000000
+      certificate: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/b0b880ca-2bbf-45f7-878d-72cdf685040a/certifications/jesse-quinn-scrum-foundation-professional-certificate.pdf
+      website: https://certiprof.com/
+      topics:
+        - Scrum
+    udemy13:
+      institution: udemy.com
+      area: Zabbix 4.4 Application and Network Monitoring
+      startedAt: 2020-05-21 00:00:00.000000
+      endedAt:
+      certificate:
+      website: http://udemy.com/
+      topics:
+        - Monitoring
+        - Logging
+        - Event Handling
+        - Security
+        - Triggers
+        - Configuration
+    oracle:
+      institution: Oracle
+      area: Oracle Cloud Infrastructure Foundations 2020 Certified Associate
+      startedAt: 2020-04-20 00:00:00.000000
+      endedAt: 2020-04-23 00:00:00.000000
+      certificate: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/b0b880ca-2bbf-45f7-878d-72cdf685040a/certifications/jesse-quinn-oracle-cloud-infrastructure-foundations.pdf
+      website: https://www.oracle.com/cloud/
+      topics:
+        - Computer
+        - Storage
+        - Network
+        - Security
+        - IAM
+        - Database
+    splunk2:
+      institution: Splunk
+      area: Splunk Fundamentals 2
+      startedAt: 2020-04-16 00:00:00.000000
+      endedAt: 2020-04-17 00:00:00.000000
+      certificate: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/b0b880ca-2bbf-45f7-878d-72cdf685040a/certifications/jesse-quinn-splink-fundamentals-part-2.pdf
+      website: https://www.splunk.com/
+      topics:
+        - Searching
+        - Reporting
+        - Knowledge Object Creation
+        - Visualizations
+        - Field Aliases
+        - Calculated Fields
+        - Tags
+        - Event Types
+        - Macros
+        - Workflow Actions
+        - Data Models
+        - Normalizing
+        - Common Information Model (CIM)
+    splunk1:
+      institution: Splunk
+      area: Splunk Fundamentals 1
+      startedAt: 2020-04-14 00:00:00.000000
+      endedAt: 2020-04-14 00:00:00.000000
+      certificate: https://jessequinn.sfo2.cdn.digitaloceanspaces.com/b0b880ca-2bbf-45f7-878d-72cdf685040a/certifications/jesse-quinn-splunk-fundamentals-part-1.pdf
+      website: https://www.splunk.com/
+      topics:
+        - Searching
+        - Reporting
+        - Knowledge Objects
+        - Visualizations
+        - Field Aliases
+        - Calculated Fields
+        - Tags
+        - Event Types
+        - Workflow Actions
+        - Data Models
+        - Normalizing
+    udemy12:
+      institution: udemy.com
+      area: NestJS Zero to Hero - Modern TypeScript Back-end Development
+      startedAt: 2020-04-04 22:07:02.000000
+      endedAt: 2020-04-09 22:07:02.000000
+      certificate: https://www.udemy.com/certificate/UC-6c787e41-666f-4270-a9ec-85ea44520d79/
+      website: http://udemy.com/
+      topics:
+        - Typeorm
+        - Typescript
+        - MongoDB
+        - GraphQl
+    udemy11:
+      institution: udemy.com
+      area: "Learn Mysql - For Beginners"
+      startedAt: 2020-04-04 14:56:35.000000
+      endedAt: 2020-04-04 14:56:35.000000
+      certificate: https://www.udemy.com/certificate/UC-371cc396-7595-4270-947f-1f3eba723cbb/
+      website: http://udemy.com/
+      topics:
+    udemy10:
+      institution: udemy.com
+      area: Golang - JumpStart on Cloud
+      startedAt: 2020-04-03 21:00:00.000000
+      endedAt: 2020-04-08 21:00:00.000000
+      certificate:
+      website: http://udemy.com/
+      topics:
+        - Variables
+        - Structs
+        - Functions
+    udemy9:
+      institution: udemy.com
+      area: Ultimate AWS Certified Developer Associate 2020
+      startedAt: 2020-02-03 21:00:00.000000
+      endedAt:
+      certificate:
+      website: http://udemy.com/
+      topics:
+        - AWS
+        - EC2
+        - IAM
+        - Cloudformation
+        - Monitor
+        - Trace
+        - Serverless API
+    coursera3:
+      institution: coursera.org
+      area: Machine Learning Specialization
+      startedAt: 2018-12-01 19:58:08.000000
+      endedAt: 2019-02-11 19:58:08.000000
+      certificate: https://www.coursera.org/account/accomplishments/specialization/certificate/NGGJQQKAU28A
+      website: http://coursera.org
+      topics:
+        - "Machine Learning Foundations: A Case Study Approach"
+        - "Machine Learning: Regression"
+        - "Machine Learning: Classification"
+        - "Machien Learning: Clustering and Retrieval"
+    udemy8:
+      institution: udemy.com
+      area: Java Programming Masterclass for Software Developers
+      startedAt: 2018-11-13 19:58:41.000000
+      endedAt:
+      certificate:
+      website: http://udemy.com/
+      topics:
+    udemy7:
+      institution: udemy.com
+      area: The Advanced Web Developer Bootcamp
+      startedAt: 2018-10-17 19:58:30.000000
+      endedAt:
+      certificate:
+      website: http://udemy.com/
+      topics:
+        - React
+        - React-Router
+        - Redux
+        - CSS3 Transitions, Transforms and Animations
+        - Testing with Jasmine
+        - D3
+        - SVG
+        - Building charts, force graphs and data visualizations
+        - ES2015, ES2016 and ES2017
+        - Callbacks, Promises, Generators and Async Functions
+        - Building Node.js APIs
+        - Building Single Page Applications
+        - OOP in JavaScript
+        - Closures and the keyword 'this'
+        - Functional Programming in JavaScript
+        - Authentication and Authorization
+        - Asynchronous Code with JavaScript
+    udemy6:
+      institution: udemy.com
+      area: "The Complete JavaScript Course 2018: Build Real Projects!"
+      startedAt: 2018-09-25 19:57:36.000000
+      endedAt: 2018-09-29 19:57:36.000000
+      certificate: https://www.udemy.com/certificate/UC-MYLUKLZW/
+      website: http://udemy.com/
+      topics:
+        - ES5
+        - ES6
+        - Advance Objects and Functions
+        - Classes and subclasses
+        - Asynchronous Javascript
+        - AJAX
+        - API
+        - Webpack
+        - Babel
+        - NPM Scripts
+        - Module Pattern
+    udemy5:
+      institution: udemy.com
+      area: "Electron for Desktop Apps: The Complete Developer's Guide"
+      startedAt: 2018-09-24 19:57:25.000000
+      endedAt: 2018-09-25 19:57:25.000000
+      certificate: https://www.udemy.com/certificate/UC-L4RSKGUK/
+      website: http://udemy.com/
+      topics:
+        - Garbage Collection
+        - Menu Bars
+        - Status Tray
+        - OOP
+        - IPC
+        - React-Redux
+        - Webkit
+        - Fluent-ffmpeg
+    coursera2:
+      institution: coursera.org
+      area: Applied Data Science with Python Specialization
+      startedAt: 2018-08-01 19:57:57.000000
+      endedAt: 2018-11-12 19:57:57.000000
+      certificate: https://www.coursera.org/account/accomplishments/specialization/certificate/QC7NJTPY367D
+      website: http://coursera.org/
+      topics:
+        - Introduction to Data Science in Python
+        - Applied Plotting, Charting & Data Representation in Python
+        - Applied Machine Learning in Python
+        - Applied Text Mining in Python
+        - Applied Social Network Analysis in Python\],
+    coursera1:
+      institution: coursera.org
+      area: IBM Data Science Professional Certificate Specialization
+      startedAt: 2018-08-01 19:57:46.000000
+      endedAt: 2018-10-29 19:57:46.000000
+      certificate: https://www.coursera.org/account/accomplishments/specialization/certificate/RP6WCXBSHZJK
+      website: http://coursera.org
+      topics:
+        - What is Data Science?
+        - Open Source tools for Data Science
+        - Data Science Methodology
+        - Python for Data Science
+        - Databases and SQL for Data Science
+        - Data Visualization with Python
+        - Data Analysis with Python
+        - Machine Learning with Python
+        - Applied Data Science Capstone
+    udemy4:
+      institution: udemy.com
+      area: Python for Data Science and Machine Learning
+      startedAt: 2018-08-01 19:56:52.000000
+      endedAt: 2018-08-01 19:56:52.000000
+      certificate: https://www.udemy.com/certificate/UC-C7RV7YPN/
+      website: http://udemy.com/
+      topics:
+        - Numpy
+        - Pandas
+        - Matplotlib
+        - Seaborn
+        - Plotly
+        - Machine Learning
+        - Linear Regression
+        - Logistic Regression
+        - K Nearest Neighbours
+        - Decision Trees and Random Forests
+        - Deep Learning
+        - Neural Nets
+        - Big Data
+        - Spark
+    udemy3:
+      institution: udemy.com
+      area: Complete Python Masterclass
+      startedAt: 2018-07-01 19:57:04.000000
+      endedAt: 2018-09-19 19:57:04.000000
+      certificate: https://www.udemy.com/certificate/UC-MSKQXBM2/
+      website: http://udemy.com/
+      topics:
+        - Program Flow Control
+        - Lists
+        - Tuples
+        - Dictionaries
+        - Sets
+        - Databasing
+        - Modules
+        - Functions
+        - Generators
+        - List Comprehensions
+        - Lambda Expressions
+        - Mapping
+        - Filtering
+        - Input/Output
+        - Object-Oriented Programming
+    udacity1:
+      institution: udacity.com
+      area: "React: Nanodegree Program"
+      startedAt: 2018-06-25 19:56:42.000000
+      endedAt: 2018-08-14 19:56:42.000000
+      certificate: https://confirm.udacity.com/JPQD3T2A
+      website: http://udacity.com/
+      topics:
+        - React
+        - Redux
+        - React Native
+        - other node modules
+    udemy2:
+      institution: udemy.com
+      area: Modern React with Redux
+      startedAt: 2018-06-23 19:55:53.000000
+      endedAt: 2018-06-25 19:55:53.000000
+      certificate: https://www.udemy.com/certificate/UC-QGQ61YRD/
+      website: http://udemy.com/
+      topics:
+        - React
+        - Redux
+        - React-Router
+        - Webpack
+        - ES6
+        - Babel
+    udemy1:
+      institution: udemy.com
+      area: Advance CSS and Sass
+      startedAt: 2018-06-01 19:58:18.000000
+      endedAt: 2020-04-04 12:50:41.000000
+      certificate: https://www.udemy.com/certificate/UC-48adfdd8-14e1-4490-8107-8ff0a4c77c86/
+      website: http://udemy.com/
+      topics:
+        - Flexbox
+        - CSS Grid
+        - Responsive Design
