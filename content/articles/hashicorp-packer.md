@@ -14,7 +14,7 @@ updateAt: 2020-10-03T03:00:00.000Z
 ---
 
 ## Introduction
-Hasicorp's Packer is an image automation tool. I will briefly discuss the configuration of an image template 
+Hashicorp's Packer is an image automation tool. I will briefly discuss the configuration of an image template 
 to create a snapshot (image) of Ubuntu 20.04 LTS on [DigitalOcean](https://m.do.co/c/6ceb645458ec). I will quickly add that this article will be a part of a series
 of Hashicorp related articles. I will, in future, present/write on Nomad, Terraform, etc. All fantastic products from what appears to be a solid company!
 
