@@ -1,8 +1,8 @@
 ---
-title: Get packing with Packer
-description: I run through how to create an image (snapshot) on DigitalOcean with Packer 
+title: Get packing with Packer on Digitalocean
+description: I run through how to create an image (snapshot) on DigitalOcean with Packer.
 img: radowan-nakif-rehan-qgXz4qXViCg-unsplash.jpg
-alt: Get packing with Packer
+alt: Get packing with Packer on Digitalocean
 featured: 1
 author: 
     name: Jesse Quinn
@@ -10,7 +10,7 @@ author:
     img: https://images.unsplash.com/photo-1533636721434-0e2d61030955?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80
     alt: profile photo
 publishedAt: 2020-10-03T03:00:00.000Z
-updateAt: 2020-10-03T03:00:00.000Z
+updateAt: 2020-10-04T03:00:00.000Z
 ---
 
 ## Introduction
@@ -18,10 +18,13 @@ Hashicorp's Packer is an image automation tool. I will briefly discuss the confi
 to create a snapshot (image) of Ubuntu 20.04 LTS on [DigitalOcean](https://m.do.co/c/6ceb645458ec). I will quickly add that this article will be a part of a series
 of Hashicorp related articles. I will, in future, present/write on Nomad, Terraform, etc. All fantastic products from what appears to be a solid company!
 
+Anyhow, to briefly explain what I want to do here with Packer, I simply want to create a snapshot that contains various Hashicorp products as well as a docker and docker-compose.
+I will eventually use this snapshot to provision a set of clients and servers to create a nomad cluster on DigitalOcean.
+
 ## Configuration
 To begin, assuming you have [Packer](https://www.packer.io/) installed, we need to create several `json` files.
 
-The first file, which is a json based, will contain our variables. You will need to create a [DigitalOcean APIKEY](https://www.digitalocean.com/community/tutorials/how-to-create-a-digitalocean-space-and-api-key). 
+The first file, which is `json` based, will contain our variables. You will need to create a [DigitalOcean API Key](https://www.digitalocean.com/community/tutorials/how-to-create-a-digitalocean-space-and-api-key). 
 Afterwards, select the base system image, this case `ubuntu-20-04-x64`, region, `tor1`, and size, `s-1vcpu-1gb`, of the droplet. 
 Those details can be found from the [DigitalOcean API](https://developers.digitalocean.com/documentation/v2/) by calling various endpoints.
 
@@ -174,7 +177,7 @@ In the code below I use only `shell` and `file` provisioners.
 
 So to quickly explain what happened in the above code, I only used a single builder, `digitalocean`, where I passed several important variables to it. At which point, I configured a single `shell`
 provisioner to install `docker`, `docker-compose`, `nomad`, `vault` and `consul`. Afterwards, I use the `file` provisioner to copy specific local files to the snapshot. In this case, I copied all my scripts
-related to nomad, vault, consul, etc so that I can eventually use Terraform to provision a nomad cluster.
+related to nomad, vault, consul, etc so that I can eventually use Terraform to provision a Nomad cluster.
 
 To make life easier, I am a big fan of `Makefiles`.
 
