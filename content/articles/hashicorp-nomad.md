@@ -662,6 +662,26 @@ I basically include the `toml` configuration file for Traefik and `acme.json` fo
 and http to https amongst other things. One other thing, I set a constraint to server-1 as I want this server to act as a load balancer. This way I can actually use Terraform to 
 set A record for www. and @.
 
+As an example
+
+```hcl
+## Add an A record to the domain for www.jessequinn.info ##
+resource "digitalocean_record" "www-jessequinn" {
+  domain = "jessequinn.info"
+  type   = "A"
+  name   = "www"
+  value  = digitalocean_droplet.server[0].ipv4_address
+}
+
+## Add an A record to the domain for jessequinn.info ##
+resource "digitalocean_record" "jessequinn" {
+  domain = "jessequinn.info"
+  type   = "A"
+  name   = "@"
+  value  = digitalocean_droplet.server[0].ipv4_address
+}
+```
+
 Now we can schedule the job:
 
 ```bash
