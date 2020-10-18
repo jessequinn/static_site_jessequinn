@@ -204,8 +204,6 @@ Once again I have a simple bash script to enable server and client services:
 echo "Configuring Nomad\n"
 
 if [ $1 == "server" ]; then
-  vaultToken=`grep "Initial Root Token" /root/startupOutput.txt | cut -d' ' -f4`
-  find /etc/systemd/system/nomad-server.service -type f -exec sed -i "s/replace_vault_token/${vaultToken}/g" {} \;
   systemctl enable nomad-server.service
   systemctl start nomad-server.service
 else
