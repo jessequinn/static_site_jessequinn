@@ -127,7 +127,8 @@ resource "digitalocean_droplet" "server" {
 
   provisioner "remote-exec" {
     inline = [
-      "sed -i 's/count/${count.index + 1}/g' /etc/systemd/system/consul-server.service",
+      "sed -i 's/node_number/${count.index + 1}/g' /etc/systemd/system/consul-server.service",
+      "sed -i 's/server_count/${var.server_instance_count}/g' /etc/systemd/system/consul-server.service",
       "chmod +x /root/configure_consul.sh",
       "/root/configure_consul.sh server",
     ]
@@ -223,7 +224,7 @@ resource "digitalocean_droplet" "client" {
 
   provisioner "remote-exec" {
     inline = [
-      "sed -i 's/count/${count.index + 1}/g' /etc/systemd/system/consul-client.service",
+      "sed -i 's/node_number/${count.index + 1}/g' /etc/systemd/system/consul-client.service",
       "chmod +x /root/configure_consul.sh",
       "/root/configure_consul.sh client ${digitalocean_droplet.server[0].ipv4_address_private}",
     ]
