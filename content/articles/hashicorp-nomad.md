@@ -84,7 +84,7 @@ Description=Consul client
 Wants=network-online.target
 After=network-online.target
 [Service]
-ExecStart= /bin/sh -c "consul agent -data-dir=/tmp/consul -node=agent-c-count -bind=$(ip -f inet addr show eth1 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p') -enable-script-checks=true -config-dir=/etc/consul.d"
+ExecStart= /bin/sh -c "consul agent -data-dir=/tmp/consul -node=agent-c-node_number -bind=$(ip -f inet addr show eth1 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p') -enable-script-checks=true -config-dir=/etc/consul.d"
 Restart=always
 RestartSec=10
 [Install]
@@ -93,7 +93,7 @@ WantedBy=multi-user.target
 
 is just the client service for `systemd`. A good tutorial on systemd can be found on
 [DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files). The important line
-is the `ExecStart`. We basically tell consul to run as a worker node, provide a node count, bind the private ip, [enable script checks](https://www.consul.io/docs/discovery/checks), 
+is the `ExecStart`. We basically tell consul to run as a worker node, provide a node name, bind the private ip, [enable script checks](https://www.consul.io/docs/discovery/checks), 
 and finally define the location of the config file.
 
 The systemd service for servers:
@@ -104,14 +104,14 @@ Description=Consul server
 Wants=network-online.target
 After=network-online.target
 [Service]
-ExecStart= /bin/sh -c "consul agent -server -bootstrap-expect=1 -data-dir=/tmp/consul -node=agent-s-count -bind=$(ip -f inet addr show eth1 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p') -enable-script-checks=true -config-file=/root/consul-connect-enable.hcl -config-dir=/etc/consul.d"
+ExecStart= /bin/sh -c "consul agent -server -bootstrap-expect=server_count -data-dir=/tmp/consul -node=agent-s-node_number -bind=$(ip -f inet addr show eth1 | sed -En -e 's/.*inet ([0-9.]+).*/\1/p') -enable-script-checks=true -config-file=/root/consul-connect-enable.hcl -config-dir=/etc/consul.d"
 Restart=always
 RestartSec=10
 [Install]
 WantedBy=multi-user.target
 ```
 
-runs the consul agent in server mode bootstrapping with an expected server count of one (1), although we should use three (3) or more servers, and provide a config file: 
+runs the consul agent in server mode bootstrapping with an expected server count, I use one (1), although we should use three (3) or more servers, and provide a config file: 
 
 ```hcl[consul-connect-enable.hcl]
 {
@@ -123,7 +123,7 @@ runs the consul agent in server mode bootstrapping with an expected server count
 
 within the configuration we enable [connect](https://www.consul.io/docs/guides/connect-gateways).
 
-Just a quick note, in several files we are using variables, variables that would be used in Terraform.
+Just a quick note, in several files we are using placeholders for values, placeholders that would be processed by `sed` in Terraform.
 
 ### Vault
 Just like Consul, I utilize a bash script to enable and start the Vault server. Unlike Consul, I only install vault on the server:
