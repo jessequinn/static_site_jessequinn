@@ -210,7 +210,7 @@ resource "digitalocean_droplet" "client" {
   region              = var.do_region
   size                = var.do_size
   private_networking  = var.do_private_networking
-  ssh_keys = [var.ssh_fingerprint]
+  ssh_keys            = [var.ssh_fingerprint]
 
   depends_on = [null_resource.dependency_manager]
 
