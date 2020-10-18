@@ -162,8 +162,10 @@ resource "digitalocean_droplet" "server" {
   provisioner "remote-exec" {
     inline = [
       "chmod +x /root/configure_nomad.sh",
+      "sed -i 's/server_ip_bind_addr/0.0.0.0/g' /root/nomad-server.hcl",
       "sed -i 's/server_ip/${self.ipv4_address_private}/g' /root/nomad-server.hcl",
       "sed -i 's/server_count/${var.server_instance_count}/g' /root/nomad-server.hcl",
+      "sed -i \"s/replace_vault_token/$(sed -n -e 's/^Initial Root Token: //p' /root/startupOutput.txt)/g\" /etc/systemd/system/nomad-server.service",
       "/root/configure_nomad.sh server",
     ]
   }
