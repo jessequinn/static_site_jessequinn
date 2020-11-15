@@ -34,23 +34,23 @@ type: docker
 name: deployment
 
 steps:
-  - name: build and publish app
-    image: plugins/docker
-    settings:
-      username:
-        from_secret: repository_username
-      password:
-        from_secret: repository_password
-      repo: damasu/jessequinn
-      dockerfile: Dockerfile
-      context: .
-      target: prod
-      build_args:
-        VERSION: 14
-        PORT: 3000
-      tags:
-        - latest
-        - ${DRONE_COMMIT_SHA:0:7}
+#  - name: build and publish app
+#    image: plugins/docker
+#    settings:
+#      username:
+#        from_secret: repository_username
+#      password:
+#        from_secret: repository_password
+#      repo: damasu/jessequinn
+#      dockerfile: Dockerfile
+#      context: .
+#      target: prod
+#      build_args:
+#        VERSION: 14
+#        PORT: 3000
+#      tags:
+#        - latest
+#        - ${DRONE_COMMIT_SHA:0:7}
 
   - name: deploy
     image: appleboy/drone-ssh
