@@ -47,12 +47,11 @@
         </a>
       </small>
     </p>
-    <p v-if="certificate.topics">
+    <div v-if="certificate.topics" class="tags">
       <template v-for="t in certificate.topics">
         <span :key="t.id" class="tag is-dark">{{ t }}</span>
-        &nbsp;
       </template>
-    </p>
+    </div>
   </div>
 </template>
 

@@ -11,12 +11,21 @@ Vue.filter('formatDate', (date: string, format: string) => {
 
 Vue.filter('compareDates', (startDate: string, endDate: string) => {
   if (startDate) {
-    return moment(new Date(endDate)).diff(moment(startDate), 'months', false)
+    return (
+      Math.ceil(
+        moment(new Date(endDate)).diff(moment(startDate), 'months', true) * 20 -
+          0.5,
+      ) / 20
+    ).toFixed(0)
   }
 })
 
 Vue.filter('compareDateNow', (startDate: string) => {
   if (startDate) {
-    return moment(new Date()).diff(moment(startDate), 'months', false)
+    return (
+      Math.ceil(
+        moment(new Date()).diff(moment(startDate), 'months', true) * 20 - 0.5,
+      ) / 20
+    ).toFixed(0)
   }
 })

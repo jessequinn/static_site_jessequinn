@@ -6,7 +6,7 @@ work:
       website: https://www.indyxa.com.br/
       startedAt: 2020-04-13 20:46:42.000000
       endedAt:
-      summary: "Employed Zabbix and Elastic stack using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files)."
+      summary: "Employ and manage POC Zabbix and Elastic stacks using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files). Employ and manage POC Hadoop/Spark/Yarn/Hive cluster. Write Golang based CLIs and APIs for Grafana, Zabbix and Ansible."
       highlights:
         - ELK
         - Zabbix
@@ -16,13 +16,13 @@ work:
         - Metrics
         - Python
         - Ansile
-    scicoc-connect:
+    scidoc-connect:
       company: ConnecTV
       position: Developer
       website: https://scidoc.dev/
       startedAt: 2020-03-25 21:19:34.000000
       endedAt:
-      summary: "Manage several projects related to IPTV. Designed and implemented microservices backend with NestJS. Utilized NuxtJS/VueJS for frontend. Created and manage MX mailservers, elastic stack, kubernetes and docker-compose orchestration. "
+      summary: "Manage several projects related to IPTV. Designed and implemented microservices backend with NestJS. Utilized NuxtJS/VueJS for frontend. Created and manage MX mail servers, Elastic stack, Kubernetes and Docker-compose orchestrations."
       highlights:
         - NestJS
         - NuxtJS
@@ -40,7 +40,7 @@ work:
       website: https://vivitech.com.br/
       startedAt: 2019-06-01 21:12:20.000000
       endedAt: 2020-05-15 09:13:19.000000
-      summary: "Day to day tasks involved modifying legacy Symfony PHP code, javascript, html and css. Created and maintained several plugins and themes for Wordpress and Woocommerce. Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD. Created and maintained several APIs based on API-Platform and Golang (micro.mu)"
+      summary: "Day to day tasks involved modifying legacy Symfony PHP code, javascript, html and css. Created and maintained several plugins and themes for Wordpress and Woocommerce. Implemented and maintained microservices for local development, staging and production based on Docker, Docker Compose, Symfony, Composer, Apache and Nginx. Designed and implemented unit and functional testing. Responsible for the implementation of Drone CI/CD. Created and maintained several APIs based on API-Platform and Golang (micro.mu)."
       highlights:
         - PHP
         - Symfony
@@ -214,10 +214,10 @@ education:
         - Scrum
     udemy13:
       institution: udemy.com
-      area: Zabbix 4.4 Application and Network Monitoring
+      area: Zabbix 5 Application and Network Monitoring
       startedAt: 2020-05-21 00:00:00.000000
-      endedAt:
-      certificate:
+      endedAt: 2020-11-15 00:00:00.000000
+      certificate: https://www.udemy.com/certificate/UC-729902c1-58e1-42de-b95c-62d8052907cd/
       website: http://udemy.com/
       topics:
         - Monitoring

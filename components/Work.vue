@@ -26,12 +26,11 @@
     <p class="has-text-justified">
       {{ work.summary }}
     </p>
-    <p v-if="work.highlights">
+    <div v-if="work.highlights" class="tags">
       <template v-for="h in work.highlights">
         <span :key="h.id" class="tag is-dark">{{ h }}</span>
-        &nbsp;
       </template>
-    </p>
+    </div>
   </div>
 </template>
 
