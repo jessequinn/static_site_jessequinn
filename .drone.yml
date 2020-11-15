@@ -20,7 +20,7 @@ steps:
         from_secret: ssh_key
       script:
         - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' /root/nomad/jobs/jessequinn.nomad
-        - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
+        - nomad job run -address=http://10.118.0.3:4646 /root/nomad/jobs/jessequinn.nomad/jessequinn.nomad
 
 trigger:
   branch:
