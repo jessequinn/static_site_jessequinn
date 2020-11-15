@@ -18,9 +18,9 @@ steps:
       port: 22
       key:
         from_secret: ssh_key
-    script:
-      - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' jessequinn.nomad
-      - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
+      script:
+        - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' jessequinn.nomad
+        - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
 
 trigger:
   branch:
@@ -60,9 +60,9 @@ steps:
       port: 22
       key:
         from_secret: ssh_key
-    script:
-      - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' jessequinn.nomad
-      - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
+      script:
+        - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' jessequinn.nomad
+        - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
 
 trigger:
   branch:
