@@ -4,23 +4,11 @@ type: docker
 name: test
 
 steps:
-#  - name: test build
-#    image: node:14.8.0-alpine
-#    commands:
-#      - yarn install
-#      - yarn build
-
-  - name: deploy
-    image: appleboy/drone-ssh
-    settings:
-      host: 134.122.44.112
-      username: root
-      port: 22
-      key:
-        from_secret: ssh_key
-      script:
-        - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' /root/nomad/jobs/jessequinn.nomad
-        - nomad job run -address=http://10.118.0.3:4646 /root/nomad/jobs/jessequinn.nomad/jessequinn.nomad
+  - name: test build
+    image: node:14.8.0-alpine
+    commands:
+      - yarn install
+      - yarn build
 
 trigger:
   branch:
@@ -62,7 +50,7 @@ steps:
         from_secret: ssh_key
       script:
         - sed -i 's/\(jessequinn:\)\(.*\)/\1${DRONE_COMMIT_SHA:0:7}"/' /root/nomad/jobs/jessequinn.nomad
-        - nomad job run -address=http://10.118.0.3:4646 jessequinn.nomad
+        - nomad job run -address=http://10.118.0.3:4646 /root/nomad/jobs/jessequinn.nomad/jessequinn.nomad
 
 trigger:
   branch:
