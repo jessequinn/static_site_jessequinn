@@ -67,7 +67,7 @@
         </div>
         <div class="column is-four-fifths">
           <h1 id="work" class="title">
-            <span class="icon mr-1">
+            <span class="icon mr-3">
               <font-awesome-layers class="fa-1x">
                 <font-awesome-icon :icon="['far', 'building']" />
               </font-awesome-layers>
@@ -82,7 +82,7 @@
             :aria-colindex="index"
           />
           <h1 id="education" class="title pt-6">
-            <span class="icon mr-1">
+            <span class="icon mr-3">
               <font-awesome-layers class="fa-1x">
                 <font-awesome-icon :icon="['fas', 'graduation-cap']" />
               </font-awesome-layers>
@@ -97,7 +97,7 @@
             :aria-colindex="index"
           />
           <h1 id="certificates" class="title pt-6">
-            <span class="icon mr-1">
+            <span class="icon mr-3">
               <font-awesome-layers class="fa-1x">
                 <font-awesome-icon :icon="['fas', 'certificate']" />
               </font-awesome-layers>

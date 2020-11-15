@@ -31,12 +31,11 @@
     <p class="has-text-justified">
       {{ education.summary }}
     </p>
-    <p v-if="education.courses">
+    <div v-if="education.courses" class="tags">
       <template v-for="c in education.courses">
         <span :key="c.id" class="tag is-dark">{{ c }}</span>
-        &nbsp;
       </template>
-    </p>
+    </div>
   </div>
 </template>
 
