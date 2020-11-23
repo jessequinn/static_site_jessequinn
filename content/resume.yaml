@@ -1,9 +1,9 @@
 work:
   companies:
     indyxa:
-      company: Indyxa
+      company: Indyxa -> FlowTI
       position: Developer
-      website: https://www.indyxa.com.br/
+      website: https://flowti.com.br/
       startedAt: 2020-04-13 20:46:42.000000
       endedAt:
       summary: "Employ and manage POC Zabbix and Elastic stacks using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files). Employ and manage POC Hadoop/Spark/Yarn/Hive cluster. Write Golang based CLIs and APIs for Grafana, Zabbix and Ansible."
