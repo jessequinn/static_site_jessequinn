@@ -110,7 +110,7 @@ export default {
         {
           hid: 'twitter:creator',
           name: 'twitter:creator',
-          content: 'jesse quinn'
+          content: this.article.author.name
         },
         {
           hid: 'twitter:title',
@@ -156,6 +156,10 @@ export default {
           hid: 'og:description',
           name: 'og:description',
           content: this.article.description
+        },
+        {
+          name: 'author',
+          content: this.article.author.name
         }
       ]
     }
