@@ -14,7 +14,7 @@ work:
       website: https://zpesystems.com/
       startedAt: 2021-05-01 20:46:42.000000
       endedAt: 2021-07-15 20:46:42.000000
-      summary: "In short, manage monitoring, pipeline construction following best practices, container security, provisioning with Terraform, custom providers in Go, monitoring, etc."
+      summary: "In short, managed monitoring, pipeline construction following best practices, container security, provisioning with Terraform, custom providers in Go, monitoring, etc."
       highlights:
         - GCP
         - AWS
@@ -33,7 +33,7 @@ work:
       website: https://flowti.com.br/
       startedAt: 2020-04-13 20:46:42.000000
       endedAt: 2021-04-31 20:46:42.000000
-      summary: "Employ and manage POC Zabbix and Elastic stacks using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files). Employ and manage POC Hadoop/Spark/Yarn/Hive cluster. Write Golang based CLIs and APIs for Grafana, Zabbix and Ansible."
+      summary: "Employed and managed POC Zabbix and Elastic stacks using orchestration. Monitored and maintained logs and events. Implemented various types of GROK filters sources (i.e. beats, log files). Employed and managed POC Hadoop/Spark/Yarn/Hive cluster. Wrote Go based CLIs and APIs for Grafana, Zabbix and Ansible."
       highlights:
         - ELK
         - Zabbix
@@ -49,7 +49,7 @@ work:
       website: https://scidoc.dev/
       startedAt: 2020-03-25 21:19:34.000000
       endedAt:
-      summary: "Manage several projects related to IPTV. Designed and implemented microservices backend with NestJS. Utilized NuxtJS/VueJS for frontend. Created and manage MX mail servers, Elastic stack, Kubernetes and Docker-compose orchestrations."
+      summary: "Managed several projects related to IPTV. Designed and implemented microservice backends with NestJS. Utilized NuxtJS/VueJS for frontend. Created and managed MX mail servers, Elastic stack, Kubernetes and Docker-compose orchestrations."
       highlights:
         - NestJS
         - NuxtJS
