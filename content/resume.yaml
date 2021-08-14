@@ -1,11 +1,28 @@
 work:
   companies:
+    zpesystems:
+      company: ZPE Systems
+      position: DevOps Team Lead
+      website: https://zpesystems.com/
+      startedAt: 2021-05-01 20:46:42.000000
+      endedAt:
+      summary: "Employ and manage POC Zabbix and Elastic stacks using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files). Employ and manage POC Hadoop/Spark/Yarn/Hive cluster. Write Golang based CLIs and APIs for Grafana, Zabbix and Ansible."
+      highlights:
+        - GCP
+        - AWS
+        - On Premise
+        - Monitoring
+        - Logging
+        - Metrics
+        - Go
+        - Ansible
+        - Terraform
     indyxa:
       company: Indyxa -> FlowTI
       position: Developer
       website: https://flowti.com.br/
       startedAt: 2020-04-13 20:46:42.000000
-      endedAt:
+      endedAt: 2021-04-31 20:46:42.000000
       summary: "Employ and manage POC Zabbix and Elastic stacks using orchestration. Monitor and maintain logs and events. Implement various types of GROK filters sources (i.e. beats, log files). Employ and manage POC Hadoop/Spark/Yarn/Hive cluster. Write Golang based CLIs and APIs for Grafana, Zabbix and Ansible."
       highlights:
         - ELK
@@ -15,7 +32,7 @@ work:
         - Logging
         - Metrics
         - Python
-        - Ansile
+        - Ansible
     scidoc-connect:
       company: ConnecTV
       position: Developer
