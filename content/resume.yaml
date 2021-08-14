@@ -4,8 +4,16 @@ work:
       company: ZPE Systems
       position: DevOps Team Lead
       website: https://zpesystems.com/
-      startedAt: 2021-05-01 20:46:42.000000
+      startedAt: 2021-07-15 20:46:42.000000
       endedAt:
+      summary: "Previous tasks, project management, team planning, so forth."
+      highlights: []
+    zpesystems-1:
+      company: ZPE Systems
+      position: DevOps Engineer
+      website: https://zpesystems.com/
+      startedAt: 2021-05-01 20:46:42.000000
+      endedAt: 2021-07-15 20:46:42.000000
       summary: "In short, manage monitoring, pipeline construction following best practices, container security, provisioning with Terraform, custom providers in Go, monitoring, etc."
       highlights:
         - GCP
