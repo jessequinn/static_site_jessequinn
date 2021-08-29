@@ -39,7 +39,6 @@
     "node-sass": "^6.0.1",
     "nuxt": "^2.14.7",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-perfect-cache": "^1.1.0",
     "nuxt-property-decorator": "^2.8.8",
     "nuxt-responsive-loader": "^2.0.1",
     "prism-themes": "^1.4.0",

@@ -1,7 +1,8 @@
 import webpack from 'webpack'
 
 export default {
-  ssr: true, // universal mode
+  ssr: false, // universal mode,
+  target: 'static',
   server: {
     port: process.env.PORT || 3000,
     host: process.env.HOST || '0.0.0.0',
@@ -153,22 +154,6 @@ export default {
     '@nuxtjs/sitemap',
     'nuxt-responsive-loader',
     // '@nuxtjs/feed',
-    [
-      'nuxt-perfect-cache',
-      {
-        disable: false,
-        appendHost: true,
-        ignoreConnectionErrors: true,
-        prefix: 'r-',
-        url: 'redis://redis:6379',
-        getCacheData(route) {
-          if (route !== '/') {
-            return false
-          }
-          return { key: 'my-home-page', expire: 60 * 60 }
-        },
-      },
-    ],
   ],
   responsiveLoader: {
     name: 'img/[hash:7]-[width].[ext]',

@@ -8,6 +8,20 @@
         <h2 class="subtitle">
           {{ $t('publications.subline') }}
         </h2>
+        <!-- chartjs -->
+        <client-only placeholder="Loading...">
+          <portolio-chart />
+        </client-only>
+        <div>
+          <p>
+            <a
+              href="https://scholar.google.com/citations?user=5xKJr4sAAAAJ&hl=en"
+              target="_blank"
+            >
+              source
+            </a>
+          </p>
+        </div>
       </div>
     </div>
     <div class="container mt-6">
