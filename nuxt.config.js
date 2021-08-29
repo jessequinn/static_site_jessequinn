@@ -153,6 +153,22 @@ export default {
     '@nuxtjs/sitemap',
     'nuxt-responsive-loader',
     // '@nuxtjs/feed',
+    [
+      'nuxt-perfect-cache',
+      {
+        disable: false,
+        appendHost: true,
+        ignoreConnectionErrors: true,
+        prefix: 'r-',
+        url: 'redis://redis:6379',
+        getCacheData(route) {
+          if (route !== '/') {
+            return false
+          }
+          return { key: 'my-home-page', expire: 60 * 60 }
+        },
+      },
+    ],
   ],
   responsiveLoader: {
     name: 'img/[hash:7]-[width].[ext]',
