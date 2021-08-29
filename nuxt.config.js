@@ -1,7 +1,7 @@
 import webpack from 'webpack'
 
 export default {
-  ssr: false, // universal mode
+  ssr: true, // universal mode
   server: {
     port: process.env.PORT || 3000,
     host: process.env.HOST || '0.0.0.0',
