@@ -1,7 +1,7 @@
 import webpack from 'webpack'
 
 export default {
-  // mode: 'universal',
+  mode: 'spa',
   // target: 'static',
   server: {
     port: process.env.PORT || 3000,
